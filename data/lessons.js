@@ -1,0 +1,5530 @@
+window.MANDARIN_LESSONS = {
+  "meta": {
+    "title": "Mandarin Parlé — Developing Chinese I",
+    "language": "fr",
+    "source": "Développement pédagogique original aligné sur les 23 thèmes et le sommaire du PDF fourni (Elementary Speaking Course I, 2nd edition). Le manuel et ses enregistrements officiels ne sont pas reproduits intégralement.",
+    "version": "1.0"
+  },
+  "lessons": [
+    {
+      "id": 1,
+      "hanzi": "你好",
+      "title": "Bonjour !",
+      "en": "Hello",
+      "sourcePage": 1,
+      "goal": "Saluer, prendre congé, distinguer les quatre tons et le ton neutre.",
+      "vocab": [
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "fr": "tu / vous"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "fr": "bien / bon"
+        },
+        {
+          "zh": "你好",
+          "py": "nǐ hǎo",
+          "fr": "bonjour"
+        },
+        {
+          "zh": "您",
+          "py": "nín",
+          "fr": "vous (poli)"
+        },
+        {
+          "zh": "您好",
+          "py": "nín hǎo",
+          "fr": "bonjour (poli)"
+        },
+        {
+          "zh": "你们",
+          "py": "nǐmen",
+          "fr": "vous (pluriel)"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "fr": "professeur"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "fr": "camarade de classe"
+        },
+        {
+          "zh": "早上好",
+          "py": "zǎoshang hǎo",
+          "fr": "bonjour (matin)"
+        },
+        {
+          "zh": "下午好",
+          "py": "xiàwǔ hǎo",
+          "fr": "bon après-midi"
+        },
+        {
+          "zh": "晚上好",
+          "py": "wǎnshang hǎo",
+          "fr": "bonsoir"
+        },
+        {
+          "zh": "再见",
+          "py": "zàijiàn",
+          "fr": "au revoir"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "fr": "je / moi"
+        },
+        {
+          "zh": "们",
+          "py": "men",
+          "fr": "suffixe pluriel de personne"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "fr": "ami"
+        },
+        {
+          "zh": "大家",
+          "py": "dàjiā",
+          "fr": "tout le monde"
+        },
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "fr": "merci"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "fr": "faire connaissance"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "fr": "Chine"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "fr": "langue chinoise"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Salutation simple",
+          "explanation": "你好 est la formule de base. Le second caractère 好 porte le troisième ton ; la combinaison change légèrement en discours.",
+          "zh": "你好！",
+          "py": "Nǐ hǎo!",
+          "fr": "Bonjour !"
+        },
+        {
+          "title": "Politesse avec 您",
+          "explanation": "您 est une forme respectueuse de 你, notamment envers un professeur ou une personne plus âgée.",
+          "zh": "老师，您好！",
+          "py": "Lǎoshī, nín hǎo!",
+          "fr": "Bonjour, professeur !"
+        },
+        {
+          "title": "Pluriel des pronoms",
+          "explanation": "Le suffixe 们 se combine avec 你 / 我 / 他 lorsqu’on parle d’un groupe de personnes.",
+          "zh": "你们好！",
+          "py": "Nǐmen hǎo!",
+          "fr": "Bonjour à vous tous !"
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Rencontre en classe",
+          "context": "Deux camarades arrivent à l’école.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你好！",
+              "py": "Nǐ hǎo!",
+              "fr": "Bonjour !"
+            },
+            {
+              "speaker": "B",
+              "zh": "你好！",
+              "py": "Nǐ hǎo!",
+              "fr": "Bonjour !"
+            },
+            {
+              "speaker": "A",
+              "zh": "你是新同学吗？",
+              "py": "Nǐ shì xīn tóngxué ma?",
+              "fr": "Tu es un nouvel élève ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "是的。很高兴认识你！",
+              "py": "Shì de. Hěn gāoxìng rènshi nǐ!",
+              "fr": "Oui. Ravi de te rencontrer !"
+            },
+            {
+              "speaker": "A",
+              "zh": "我也很高兴！",
+              "py": "Wǒ yě hěn gāoxìng!",
+              "fr": "Moi aussi, je suis ravi !"
+            },
+            {
+              "speaker": "B",
+              "zh": "再见！",
+              "py": "Zàijiàn!",
+              "fr": "Au revoir !"
+            }
+          ]
+        },
+        {
+          "title": "Avec une enseignante",
+          "context": "Dans le couloir avant le cours.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "老师，早上好！",
+              "py": "Lǎoshī, zǎoshang hǎo!",
+              "fr": "Bonjour, professeur !"
+            },
+            {
+              "speaker": "B",
+              "zh": "早上好！",
+              "py": "Zǎoshang hǎo!",
+              "fr": "Bonjour !"
+            },
+            {
+              "speaker": "A",
+              "zh": "老师，您好吗？",
+              "py": "Lǎoshī, nín hǎo ma?",
+              "fr": "Professeur, comment allez-vous ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我很好，谢谢。",
+              "py": "Wǒ hěn hǎo, xièxie.",
+              "fr": "Je vais très bien, merci."
+            },
+            {
+              "speaker": "A",
+              "zh": "老师，再见！",
+              "py": "Lǎoshī, zàijiàn!",
+              "fr": "Au revoir, professeur !"
+            },
+            {
+              "speaker": "B",
+              "zh": "再见！",
+              "py": "Zàijiàn!",
+              "fr": "Au revoir !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Entraîne-toi sur mā, má, mǎ, mà, puis sur le ton neutre de men. Attention au troisième ton de nǐ hǎo.",
+      "mission": "Salue un professeur et deux camarades ; termine les trois échanges par une formule de départ."
+    },
+    {
+      "id": 2,
+      "hanzi": "谢谢",
+      "title": "Merci",
+      "en": "Thank you",
+      "sourcePage": 8,
+      "goal": "Remercier, répondre à une excuse et maîtriser les changements de ton de 不 et du troisième ton.",
+      "vocab": [
+        {
+          "zh": "谢谢",
+          "py": "xièxie",
+          "fr": "merci"
+        },
+        {
+          "zh": "不客气",
+          "py": "bú kèqi",
+          "fr": "de rien"
+        },
+        {
+          "zh": "对不起",
+          "py": "duìbuqǐ",
+          "fr": "pardon / désolé"
+        },
+        {
+          "zh": "没关系",
+          "py": "méi guānxi",
+          "fr": "ce n’est pas grave"
+        },
+        {
+          "zh": "不用谢",
+          "py": "bú yòng xiè",
+          "fr": "pas de quoi"
+        },
+        {
+          "zh": "不用",
+          "py": "bú yòng",
+          "fr": "pas nécessaire"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "fr": "ne… pas"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "fr": "être / oui"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "fr": "matin"
+        },
+        {
+          "zh": "中午",
+          "py": "zhōngwǔ",
+          "fr": "midi"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "fr": "après-midi"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "fr": "soir"
+        },
+        {
+          "zh": "你好",
+          "py": "nǐ hǎo",
+          "fr": "bonjour"
+        },
+        {
+          "zh": "晚安",
+          "py": "wǎn’ān",
+          "fr": "bonne nuit"
+        },
+        {
+          "zh": "请",
+          "py": "qǐng",
+          "fr": "s’il vous plaît"
+        },
+        {
+          "zh": "帮助",
+          "py": "bāngzhù",
+          "fr": "aider"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "fr": "ne pas avoir"
+        },
+        {
+          "zh": "问题",
+          "py": "wèntí",
+          "fr": "problème"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "fr": "pouvoir / possible"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "fr": "aujourd’hui"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Répondre à merci",
+          "explanation": "On répond souvent à 谢谢 par 不客气 ou 不用谢.",
+          "zh": "谢谢！不客气！",
+          "py": "Xièxie! Bú kèqi!",
+          "fr": "Merci ! De rien !"
+        },
+        {
+          "title": "S’excuser",
+          "explanation": "对不起 introduit une excuse ; 没关系 rassure la personne.",
+          "zh": "对不起！没关系。",
+          "py": "Duìbuqǐ! Méi guānxi.",
+          "fr": "Pardon ! Ce n’est pas grave."
+        },
+        {
+          "title": "Changement de ton de 不",
+          "explanation": "不 (bù) se prononce souvent bú devant une syllabe au quatrième ton, par exemple 客 kè.",
+          "zh": "不客气。",
+          "py": "Bú kèqi.",
+          "fr": "De rien."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Remercier pour une aide",
+          "context": "Un cahier vient de tomber.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "这是你的书吗？",
+              "py": "Zhè shì nǐ de shū ma?",
+              "fr": "C’est ton livre ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "是的，谢谢！",
+              "py": "Shì de, xièxie!",
+              "fr": "Oui, merci !"
+            },
+            {
+              "speaker": "A",
+              "zh": "不客气。",
+              "py": "Bú kèqi.",
+              "fr": "De rien."
+            },
+            {
+              "speaker": "B",
+              "zh": "你真好！",
+              "py": "Nǐ zhēn hǎo!",
+              "fr": "Tu es vraiment gentil !"
+            },
+            {
+              "speaker": "A",
+              "zh": "没关系，我们是朋友。",
+              "py": "Méi guānxi, wǒmen shì péngyou.",
+              "fr": "De rien, nous sommes amis."
+            }
+          ]
+        },
+        {
+          "title": "Petite collision",
+          "context": "Dans le couloir.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "对不起！",
+              "py": "Duìbuqǐ!",
+              "fr": "Pardon !"
+            },
+            {
+              "speaker": "B",
+              "zh": "没关系。",
+              "py": "Méi guānxi.",
+              "fr": "Ce n’est pas grave."
+            },
+            {
+              "speaker": "A",
+              "zh": "谢谢你！",
+              "py": "Xièxie nǐ!",
+              "fr": "Merci à toi !"
+            },
+            {
+              "speaker": "B",
+              "zh": "不用谢。",
+              "py": "Bú yòng xiè.",
+              "fr": "Il n’y a pas de quoi."
+            },
+            {
+              "speaker": "A",
+              "zh": "再见！",
+              "py": "Zàijiàn!",
+              "fr": "Au revoir !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Répète nǐ hǎo et hěn hǎo pour le troisième ton, puis compare bù shì et bú kèqi.",
+      "mission": "Imagine trois situations : cadeau reçu, aide rendue et excuse à présenter."
+    },
+    {
+      "id": 3,
+      "hanzi": "今天是星期一",
+      "title": "Aujourd’hui, c’est lundi",
+      "en": "Today is Monday",
+      "sourcePage": 14,
+      "goal": "Dire le jour, la date, demander un rendez-vous, pratiquer les nombres et le changement de ton de 一.",
+      "vocab": [
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "fr": "aujourd’hui"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "fr": "demain"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "fr": "hier"
+        },
+        {
+          "zh": "星期",
+          "py": "xīngqī",
+          "fr": "semaine"
+        },
+        {
+          "zh": "星期一",
+          "py": "xīngqīyī",
+          "fr": "lundi"
+        },
+        {
+          "zh": "星期二",
+          "py": "xīngqī’èr",
+          "fr": "mardi"
+        },
+        {
+          "zh": "星期三",
+          "py": "xīngqīsān",
+          "fr": "mercredi"
+        },
+        {
+          "zh": "星期四",
+          "py": "xīngqīsì",
+          "fr": "jeudi"
+        },
+        {
+          "zh": "星期五",
+          "py": "xīngqīwǔ",
+          "fr": "vendredi"
+        },
+        {
+          "zh": "星期六",
+          "py": "xīngqīliù",
+          "fr": "samedi"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "fr": "dimanche"
+        },
+        {
+          "zh": "月",
+          "py": "yuè",
+          "fr": "mois"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "fr": "jour du mois (oral)"
+        },
+        {
+          "zh": "日",
+          "py": "rì",
+          "fr": "jour (écrit)"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "fr": "combien (petit nombre)"
+        },
+        {
+          "zh": "几号",
+          "py": "jǐ hào",
+          "fr": "quel jour du mois"
+        },
+        {
+          "zh": "几月",
+          "py": "jǐ yuè",
+          "fr": "quel mois"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "fr": "huit"
+        },
+        {
+          "zh": "九",
+          "py": "jiǔ",
+          "fr": "neuf"
+        },
+        {
+          "zh": "十",
+          "py": "shí",
+          "fr": "dix"
+        },
+        {
+          "zh": "一",
+          "py": "yī",
+          "fr": "un"
+        },
+        {
+          "zh": "二",
+          "py": "èr",
+          "fr": "deux"
+        },
+        {
+          "zh": "三",
+          "py": "sān",
+          "fr": "trois"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Dire le jour de semaine",
+          "explanation": "On utilise 星期 suivi d’un nombre pour les jours du lundi au samedi.",
+          "zh": "今天是星期一。",
+          "py": "Jīntiān shì xīngqīyī.",
+          "fr": "Aujourd’hui, c’est lundi."
+        },
+        {
+          "title": "Demander la date",
+          "explanation": "几月几号 sert à demander le mois et le jour. Le mois précède le jour.",
+          "zh": "今天几月几号？",
+          "py": "Jīntiān jǐ yuè jǐ hào?",
+          "fr": "Quelle est la date aujourd’hui ?"
+        },
+        {
+          "title": "Changement de ton de 一",
+          "explanation": "一 change souvent selon le ton suivant ; il peut se prononcer yí, yì ou yī selon le contexte.",
+          "zh": "一个人。",
+          "py": "Yí ge rén.",
+          "fr": "Une personne."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Prévoir une visite",
+          "context": "Deux amis parlent de leur emploi du temps.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "今天星期几？",
+              "py": "Jīntiān xīngqī jǐ?",
+              "fr": "On est quel jour aujourd’hui ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "今天星期一。",
+              "py": "Jīntiān xīngqīyī.",
+              "fr": "Aujourd’hui, c’est lundi."
+            },
+            {
+              "speaker": "A",
+              "zh": "明天星期二吗？",
+              "py": "Míngtiān xīngqī’èr ma?",
+              "fr": "Demain, c’est mardi ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，明天星期二。",
+              "py": "Duì, míngtiān xīngqī’èr.",
+              "fr": "Oui, demain, c’est mardi."
+            },
+            {
+              "speaker": "A",
+              "zh": "星期三有时间吗？",
+              "py": "Xīngqīsān yǒu shíjiān ma?",
+              "fr": "Tu as du temps mercredi ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "有，我们星期三见！",
+              "py": "Yǒu, wǒmen xīngqīsān jiàn!",
+              "fr": "Oui, à mercredi !"
+            }
+          ]
+        },
+        {
+          "title": "À l’accueil",
+          "context": "Vérifier la date d’un événement.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "请问，今天几月几号？",
+              "py": "Qǐngwèn, jīntiān jǐ yuè jǐ hào?",
+              "fr": "Excusez-moi, quelle est la date ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "今天是九月八号。",
+              "py": "Jīntiān shì jiǔ yuè bā hào.",
+              "fr": "Nous sommes le 8 septembre."
+            },
+            {
+              "speaker": "A",
+              "zh": "明天是九号吗？",
+              "py": "Míngtiān shì jiǔ hào ma?",
+              "fr": "Demain, c’est le 9 ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "是的，明天九号。",
+              "py": "Shì de, míngtiān jiǔ hào.",
+              "fr": "Oui, demain le 9."
+            },
+            {
+              "speaker": "A",
+              "zh": "谢谢！",
+              "py": "Xièxie!",
+              "fr": "Merci !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Entraîne-toi aux nombres de 1 à 31, aux jours de la semaine et aux variations de 一.",
+      "mission": "Donne la date du jour, celle de demain et propose un rendez-vous pour la semaine prochaine."
+    },
+    {
+      "id": 4,
+      "hanzi": "我是中国人",
+      "title": "Je suis chinois",
+      "en": "I’m Chinese",
+      "sourcePage": 20,
+      "goal": "Se présenter, exprimer sa nationalité, demander le nom d’une personne et nouer une relation.",
+      "vocab": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "fr": "je"
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "fr": "tu"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "fr": "il"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "fr": "elle"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒmen",
+          "fr": "nous"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "fr": "être"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "fr": "Chine"
+        },
+        {
+          "zh": "中国人",
+          "py": "Zhōngguó rén",
+          "fr": "Chinois / Chinoise"
+        },
+        {
+          "zh": "法国",
+          "py": "Fǎguó",
+          "fr": "France"
+        },
+        {
+          "zh": "法国人",
+          "py": "Fǎguó rén",
+          "fr": "Français / Française"
+        },
+        {
+          "zh": "英国",
+          "py": "Yīngguó",
+          "fr": "Royaume-Uni"
+        },
+        {
+          "zh": "美国",
+          "py": "Měiguó",
+          "fr": "États-Unis"
+        },
+        {
+          "zh": "韩国",
+          "py": "Hánguó",
+          "fr": "Corée du Sud"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "fr": "prénom / nom"
+        },
+        {
+          "zh": "姓",
+          "py": "xìng",
+          "fr": "porter le nom de famille"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "fr": "s’appeler"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "fr": "personne"
+        },
+        {
+          "zh": "朋友",
+          "py": "péngyou",
+          "fr": "ami"
+        },
+        {
+          "zh": "认识",
+          "py": "rènshi",
+          "fr": "connaître"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "fr": "très / lien avec adjectif"
+        },
+        {
+          "zh": "高兴",
+          "py": "gāoxìng",
+          "fr": "content"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "fr": "aussi"
+        },
+        {
+          "zh": "哪里",
+          "py": "nǎlǐ",
+          "fr": "où"
+        },
+        {
+          "zh": "哪国",
+          "py": "nǎ guó",
+          "fr": "quel pays"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Identité avec 是",
+          "explanation": "On associe sujet et identité par 是, sans article avant les noms de nationalité.",
+          "zh": "我是中国人。",
+          "py": "Wǒ shì Zhōngguó rén.",
+          "fr": "Je suis chinois."
+        },
+        {
+          "title": "Présenter son nom",
+          "explanation": "Pour dire comment on s’appelle, on emploie 我叫 suivi du nom.",
+          "zh": "我叫李雪。",
+          "py": "Wǒ jiào Lǐ Xuě.",
+          "fr": "Je m’appelle Li Xue."
+        },
+        {
+          "title": "Mettre 也 avant le verbe",
+          "explanation": "也 (aussi) précède généralement le verbe ou l’adjectif auquel il se rapporte.",
+          "zh": "我也是学生。",
+          "py": "Wǒ yě shì xuéshēng.",
+          "fr": "Je suis aussi étudiant."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Faire connaissance",
+          "context": "Deux nouveaux étudiants discutent.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你好！你叫什么名字？",
+              "py": "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+              "fr": "Bonjour ! Comment t’appelles-tu ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我叫安娜。你呢？",
+              "py": "Wǒ jiào Ānnà. Nǐ ne?",
+              "fr": "Je m’appelle Anna. Et toi ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "我叫大卫。你是哪国人？",
+              "py": "Wǒ jiào Dàwèi. Nǐ shì nǎ guó rén?",
+              "fr": "Je m’appelle David. Tu es de quelle nationalité ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我是法国人。你呢？",
+              "py": "Wǒ shì Fǎguó rén. Nǐ ne?",
+              "fr": "Je suis française. Et toi ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "我是中国人。",
+              "py": "Wǒ shì Zhōngguó rén.",
+              "fr": "Je suis chinois."
+            },
+            {
+              "speaker": "B",
+              "zh": "认识你很高兴！",
+              "py": "Rènshi nǐ hěn gāoxìng!",
+              "fr": "Enchantée de te connaître !"
+            }
+          ]
+        },
+        {
+          "title": "Présenter une amie",
+          "context": "À une rencontre entre étudiants.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "她是谁？",
+              "py": "Tā shì shéi?",
+              "fr": "Qui est-elle ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "她是我朋友。",
+              "py": "Tā shì wǒ péngyou.",
+              "fr": "C’est mon amie."
+            },
+            {
+              "speaker": "A",
+              "zh": "她叫什么名字？",
+              "py": "Tā jiào shénme míngzi?",
+              "fr": "Comment s’appelle-t-elle ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "她叫玛丽。",
+              "py": "Tā jiào Mǎlì.",
+              "fr": "Elle s’appelle Marie."
+            },
+            {
+              "speaker": "A",
+              "zh": "她也是学生吗？",
+              "py": "Tā yě shì xuéshēng ma?",
+              "fr": "Elle est aussi étudiante ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，她也是学生。",
+              "py": "Duì, tā yě shì xuéshēng.",
+              "fr": "Oui, elle est aussi étudiante."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Travaille les enchaînements du troisième ton dans nǐ hǎo et rènshi nǐ, ainsi que la terminaison -r de nǎr.",
+      "mission": "Présente-toi : nom, pays, statut et une personne de ton entourage."
+    },
+    {
+      "id": 5,
+      "hanzi": "我学习汉语",
+      "title": "J’étudie le chinois",
+      "en": "I study Chinese",
+      "sourcePage": 30,
+      "goal": "Demander le nom, les langues étudiées, les activités et la profession des personnes.",
+      "vocab": [
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "fr": "étudier"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "fr": "chinois (langue)"
+        },
+        {
+          "zh": "中文",
+          "py": "Zhōngwén",
+          "fr": "chinois écrit ou parlé"
+        },
+        {
+          "zh": "英语",
+          "py": "Yīngyǔ",
+          "fr": "anglais"
+        },
+        {
+          "zh": "法语",
+          "py": "Fǎyǔ",
+          "fr": "français"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "fr": "professeur"
+        },
+        {
+          "zh": "学生",
+          "py": "xuéshēng",
+          "fr": "élève / étudiant"
+        },
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "fr": "quoi / quel"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "fr": "nom"
+        },
+        {
+          "zh": "哪",
+          "py": "nǎ",
+          "fr": "quel"
+        },
+        {
+          "zh": "国",
+          "py": "guó",
+          "fr": "pays"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "fr": "qui"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "fr": "particule interrogative"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "fr": "particule de relance"
+        },
+        {
+          "zh": "专业",
+          "py": "zhuānyè",
+          "fr": "spécialité"
+        },
+        {
+          "zh": "经济",
+          "py": "jīngjì",
+          "fr": "économie"
+        },
+        {
+          "zh": "工作",
+          "py": "gōngzuò",
+          "fr": "travailler / travail"
+        },
+        {
+          "zh": "医生",
+          "py": "yīshēng",
+          "fr": "médecin"
+        },
+        {
+          "zh": "律师",
+          "py": "lǜshī",
+          "fr": "avocat"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "fr": "camarade"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "fr": "ne… pas"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "fr": "parler"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "fr": "savoir / pouvoir"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yìdiǎnr",
+          "fr": "un peu"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Question par mot interrogatif",
+          "explanation": "On remplace l’élément inconnu par 什么, 谁 ou 哪, à sa position habituelle dans la phrase.",
+          "zh": "你学习什么？",
+          "py": "Nǐ xuéxí shénme?",
+          "fr": "Qu’étudies-tu ?"
+        },
+        {
+          "title": "Oui/non avec 吗",
+          "explanation": "En ajoutant 吗 à la fin d’une phrase affirmative, on pose une question fermée.",
+          "zh": "你是老师吗？",
+          "py": "Nǐ shì lǎoshī ma?",
+          "fr": "Es-tu professeur ?"
+        },
+        {
+          "title": "Relance avec 呢",
+          "explanation": "呢 permet de poser à son tour une question dont le contexte est connu.",
+          "zh": "我学习汉语。你呢？",
+          "py": "Wǒ xuéxí Hànyǔ. Nǐ ne?",
+          "fr": "J’étudie le chinois. Et toi ?"
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Premier cours de langue",
+          "context": "Une étudiante découvre son voisin.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你好！你学习什么？",
+              "py": "Nǐ hǎo! Nǐ xuéxí shénme?",
+              "fr": "Bonjour ! Qu’est-ce que tu étudies ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我学习汉语。",
+              "py": "Wǒ xuéxí Hànyǔ.",
+              "fr": "J’étudie le chinois."
+            },
+            {
+              "speaker": "A",
+              "zh": "你会说汉语吗？",
+              "py": "Nǐ huì shuō Hànyǔ ma?",
+              "fr": "Sais-tu parler chinois ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我会说一点儿。",
+              "py": "Wǒ huì shuō yìdiǎnr.",
+              "fr": "J’en parle un peu."
+            },
+            {
+              "speaker": "A",
+              "zh": "我学习英语。",
+              "py": "Wǒ xuéxí Yīngyǔ.",
+              "fr": "J’étudie l’anglais."
+            },
+            {
+              "speaker": "B",
+              "zh": "认识你很高兴！",
+              "py": "Rènshi nǐ hěn gāoxìng!",
+              "fr": "Ravi de te connaître !"
+            }
+          ]
+        },
+        {
+          "title": "Interroger sur une profession",
+          "context": "À une fête universitaire.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "请问，他是谁？",
+              "py": "Qǐngwèn, tā shì shéi?",
+              "fr": "Excuse-moi, qui est-il ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "他是我们的老师。",
+              "py": "Tā shì wǒmen de lǎoshī.",
+              "fr": "C’est notre professeur."
+            },
+            {
+              "speaker": "A",
+              "zh": "他教什么？",
+              "py": "Tā jiāo shénme?",
+              "fr": "Qu’enseigne-t-il ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "他教汉语。",
+              "py": "Tā jiāo Hànyǔ.",
+              "fr": "Il enseigne le chinois."
+            },
+            {
+              "speaker": "A",
+              "zh": "你也是学生吗？",
+              "py": "Nǐ yě shì xuéshēng ma?",
+              "fr": "Es-tu aussi étudiant ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "是的，我学习经济。",
+              "py": "Shì de, wǒ xuéxí jīngjì.",
+              "fr": "Oui, j’étudie l’économie."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Entraîne-toi à distinguer x / sh, j / zh et les sons de xuéxí ; prononce correctement shénme et shéi.",
+      "mission": "Interroge un partenaire sur son nom, son pays, sa langue et ses études puis présente-le."
+    },
+    {
+      "id": 6,
+      "hanzi": "你们班有多少人",
+      "title": "Combien d’élèves dans votre classe ?",
+      "en": "How many people are there in your class",
+      "sourcePage": 38,
+      "goal": "Présenter sa famille et sa classe, compter les personnes, utiliser 有, 没有 et les classificateurs.",
+      "vocab": [
+        {
+          "zh": "班",
+          "py": "bān",
+          "fr": "classe"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "fr": "personne"
+        },
+        {
+          "zh": "学生",
+          "py": "xuéshēng",
+          "fr": "étudiant"
+        },
+        {
+          "zh": "男生",
+          "py": "nánshēng",
+          "fr": "garçon / étudiant"
+        },
+        {
+          "zh": "女生",
+          "py": "nǚshēng",
+          "fr": "fille / étudiante"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "fr": "combien"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "fr": "combien (petit nombre)"
+        },
+        {
+          "zh": "个",
+          "py": "ge",
+          "fr": "classificateur général"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "fr": "avoir / il y a"
+        },
+        {
+          "zh": "没有",
+          "py": "méiyǒu",
+          "fr": "ne pas avoir"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "fr": "famille / foyer"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gēge",
+          "fr": "grand frère"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dìdi",
+          "fr": "petit frère"
+        },
+        {
+          "zh": "姐姐",
+          "py": "jiějie",
+          "fr": "grande sœur"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèimei",
+          "fr": "petite sœur"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bàba",
+          "fr": "papa"
+        },
+        {
+          "zh": "妈妈",
+          "py": "māma",
+          "fr": "maman"
+        },
+        {
+          "zh": "口",
+          "py": "kǒu",
+          "fr": "classificateur des membres du foyer"
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "fr": "encore / en plus"
+        },
+        {
+          "zh": "一共",
+          "py": "yígòng",
+          "fr": "au total"
+        },
+        {
+          "zh": "对",
+          "py": "duì",
+          "fr": "exact / juste"
+        },
+        {
+          "zh": "两",
+          "py": "liǎng",
+          "fr": "deux (devant classificateur)"
+        },
+        {
+          "zh": "二十",
+          "py": "èrshí",
+          "fr": "vingt"
+        },
+        {
+          "zh": "同学",
+          "py": "tóngxué",
+          "fr": "camarade de classe"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Exprimer la possession",
+          "explanation": "有 indique une possession ou une existence ; sa négation est 没有.",
+          "zh": "我有一个姐姐。",
+          "py": "Wǒ yǒu yí ge jiějie.",
+          "fr": "J’ai une grande sœur."
+        },
+        {
+          "title": "Demander une quantité",
+          "explanation": "几 s’utilise plutôt pour de petits nombres ; 多少 est courant pour une quantité inconnue.",
+          "zh": "你们班有多少人？",
+          "py": "Nǐmen bān yǒu duōshao rén?",
+          "fr": "Combien de personnes y a-t-il dans votre classe ?"
+        },
+        {
+          "title": "Classificateurs",
+          "explanation": "Le classificateur est requis entre un nombre et un nom : 两个学生, 三口人.",
+          "zh": "我家有四口人。",
+          "py": "Wǒ jiā yǒu sì kǒu rén.",
+          "fr": "Nous sommes quatre dans ma famille."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Parler de sa classe",
+          "context": "Les camarades comptent les présents.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你们班有多少人？",
+              "py": "Nǐmen bān yǒu duōshao rén?",
+              "fr": "Combien d’élèves dans votre classe ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我们班有二十个人。",
+              "py": "Wǒmen bān yǒu èrshí ge rén.",
+              "fr": "Nous sommes vingt."
+            },
+            {
+              "speaker": "A",
+              "zh": "有几个女生？",
+              "py": "Yǒu jǐ ge nǚshēng?",
+              "fr": "Combien de filles ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "有十二个女生。",
+              "py": "Yǒu shí’èr ge nǚshēng.",
+              "fr": "Douze filles."
+            },
+            {
+              "speaker": "A",
+              "zh": "还有几个男生？",
+              "py": "Hái yǒu jǐ ge nánshēng?",
+              "fr": "Et combien de garçons ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "有八个男生。",
+              "py": "Yǒu bā ge nánshēng.",
+              "fr": "Huit garçons."
+            }
+          ]
+        },
+        {
+          "title": "Présenter sa famille",
+          "context": "Deux amis regardent une photo.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你家有几口人？",
+              "py": "Nǐ jiā yǒu jǐ kǒu rén?",
+              "fr": "Combien de personnes dans ta famille ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我家有五口人。",
+              "py": "Wǒ jiā yǒu wǔ kǒu rén.",
+              "fr": "Nous sommes cinq."
+            },
+            {
+              "speaker": "A",
+              "zh": "你有哥哥吗？",
+              "py": "Nǐ yǒu gēge ma?",
+              "fr": "As-tu un grand frère ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "没有，我有一个姐姐。",
+              "py": "Méiyǒu, wǒ yǒu yí ge jiějie.",
+              "fr": "Non, j’ai une grande sœur."
+            },
+            {
+              "speaker": "A",
+              "zh": "这是谁？",
+              "py": "Zhè shì shéi?",
+              "fr": "Qui est-ce ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "这是我妈妈。",
+              "py": "Zhè shì wǒ māma.",
+              "fr": "C’est ma mère."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Compare rén / réng et nǚ / nǔ, ainsi que liǎng ge et èrshí ge.",
+      "mission": "Présente ta famille et fais le total de filles, garçons et élèves de ta classe."
+    },
+    {
+      "id": 7,
+      "hanzi": "一共多少钱",
+      "title": "Combien coûte le tout ?",
+      "en": "How much altogether",
+      "sourcePage": 48,
+      "goal": "Faire des achats, demander les prix, utiliser 要, 想, 多少钱, les montants en 元 / 块 / 毛 / 分.",
+      "vocab": [
+        {
+          "zh": "一共",
+          "py": "yígòng",
+          "fr": "en tout"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "fr": "combien"
+        },
+        {
+          "zh": "钱",
+          "py": "qián",
+          "fr": "argent"
+        },
+        {
+          "zh": "多少钱",
+          "py": "duōshao qián",
+          "fr": "combien ça coûte"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "fr": "acheter"
+        },
+        {
+          "zh": "卖",
+          "py": "mài",
+          "fr": "vendre"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "fr": "vouloir / avoir besoin"
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "fr": "souhaiter"
+        },
+        {
+          "zh": "元",
+          "py": "yuán",
+          "fr": "yuan (unité monétaire)"
+        },
+        {
+          "zh": "块",
+          "py": "kuài",
+          "fr": "yuan (oral)"
+        },
+        {
+          "zh": "毛",
+          "py": "máo",
+          "fr": "dixième de yuan"
+        },
+        {
+          "zh": "角",
+          "py": "jiǎo",
+          "fr": "dixième de yuan"
+        },
+        {
+          "zh": "分",
+          "py": "fēn",
+          "fr": "centième de yuan"
+        },
+        {
+          "zh": "一瓶",
+          "py": "yì píng",
+          "fr": "une bouteille de"
+        },
+        {
+          "zh": "瓶",
+          "py": "píng",
+          "fr": "bouteille"
+        },
+        {
+          "zh": "杯",
+          "py": "bēi",
+          "fr": "verre / tasse"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "fr": "eau"
+        },
+        {
+          "zh": "面包",
+          "py": "miànbāo",
+          "fr": "pain"
+        },
+        {
+          "zh": "葡萄",
+          "py": "pútao",
+          "fr": "raisin"
+        },
+        {
+          "zh": "苹果",
+          "py": "píngguǒ",
+          "fr": "pomme"
+        },
+        {
+          "zh": "公斤",
+          "py": "gōngjīn",
+          "fr": "kilogramme"
+        },
+        {
+          "zh": "斤",
+          "py": "jīn",
+          "fr": "demi-kilo (500 g)"
+        },
+        {
+          "zh": "贵",
+          "py": "guì",
+          "fr": "cher"
+        },
+        {
+          "zh": "便宜",
+          "py": "piányi",
+          "fr": "bon marché"
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "fr": "rendre la monnaie"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "fr": "encore / en plus"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Vouloir acheter",
+          "explanation": "想 indique un souhait ; 要 peut exprimer la demande d’un article.",
+          "zh": "我想买苹果。",
+          "py": "Wǒ xiǎng mǎi píngguǒ.",
+          "fr": "Je voudrais acheter des pommes."
+        },
+        {
+          "title": "Prix et monnaie",
+          "explanation": "多少钱 introduit une question de prix ; à l’oral, 块 et 毛 sont courants.",
+          "zh": "一共十八块五。",
+          "py": "Yígòng shíbā kuài wǔ.",
+          "fr": "Ça fait 18 yuans et 50 centimes."
+        },
+        {
+          "title": "Classificateur de contenant",
+          "explanation": "On combine le nombre et un classificateur adapté au produit.",
+          "zh": "我要两瓶水。",
+          "py": "Wǒ yào liǎng píng shuǐ.",
+          "fr": "Je voudrais deux bouteilles d’eau."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "À l’épicerie",
+          "context": "Une étudiante achète des provisions.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你好！你要什么？",
+              "py": "Nǐ hǎo! Nǐ yào shénme?",
+              "fr": "Bonjour ! Que souhaitez-vous ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我要两瓶水和一个面包。",
+              "py": "Wǒ yào liǎng píng shuǐ hé yí ge miànbāo.",
+              "fr": "Deux bouteilles d’eau et un pain."
+            },
+            {
+              "speaker": "A",
+              "zh": "还要什么？",
+              "py": "Hái yào shénme?",
+              "fr": "Autre chose ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "再要一斤苹果。",
+              "py": "Zài yào yì jīn píngguǒ.",
+              "fr": "Encore un demi-kilo de pommes."
+            },
+            {
+              "speaker": "A",
+              "zh": "一共二十五块。",
+              "py": "Yígòng èrshíwǔ kuài.",
+              "fr": "Cela fait 25 yuans."
+            },
+            {
+              "speaker": "B",
+              "zh": "给你，谢谢。",
+              "py": "Gěi nǐ, xièxie.",
+              "fr": "Tenez, merci."
+            }
+          ]
+        },
+        {
+          "title": "Comparer les prix",
+          "context": "Au marché.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "苹果多少钱一斤？",
+              "py": "Píngguǒ duōshao qián yì jīn?",
+              "fr": "Combien le demi-kilo de pommes ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "八块钱一斤。",
+              "py": "Bā kuài qián yì jīn.",
+              "fr": "Huit yuans le demi-kilo."
+            },
+            {
+              "speaker": "A",
+              "zh": "有点儿贵。",
+              "py": "Yǒudiǎnr guì.",
+              "fr": "C’est un peu cher."
+            },
+            {
+              "speaker": "B",
+              "zh": "这个便宜，六块。",
+              "py": "Zhège piányi, liù kuài.",
+              "fr": "Celles-ci sont moins chères : six yuans."
+            },
+            {
+              "speaker": "A",
+              "zh": "好，我买一斤。",
+              "py": "Hǎo, wǒ mǎi yì jīn.",
+              "fr": "D’accord, j’en prends un demi-kilo."
+            },
+            {
+              "speaker": "B",
+              "zh": "好的，给你。",
+              "py": "Hǎo de, gěi nǐ.",
+              "fr": "Bien, les voici."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Compare mǎi « acheter » (3e ton) et mài « vendre » (4e ton). Pratique yí gòng et yì píng.",
+      "mission": "Joue un achat de trois articles, demande le montant total et fais rendre la monnaie."
+    },
+    {
+      "id": 8,
+      "hanzi": "请问，银行在哪儿",
+      "title": "Excusez-moi, où est la banque ?",
+      "en": "Excuse me, where’s the bank",
+      "sourcePage": 60,
+      "goal": "Demander son chemin, identifier des lieux, employer 在, 哪儿, les repères et les directions.",
+      "vocab": [
+        {
+          "zh": "请问",
+          "py": "qǐngwèn",
+          "fr": "excusez-moi / puis-je demander"
+        },
+        {
+          "zh": "银行",
+          "py": "yínháng",
+          "fr": "banque"
+        },
+        {
+          "zh": "在哪儿",
+          "py": "zài nǎr",
+          "fr": "où se trouve"
+        },
+        {
+          "zh": "哪儿",
+          "py": "nǎr",
+          "fr": "où"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "fr": "à / se trouver"
+        },
+        {
+          "zh": "这儿",
+          "py": "zhèr",
+          "fr": "ici"
+        },
+        {
+          "zh": "那儿",
+          "py": "nàr",
+          "fr": "là-bas"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "fr": "école"
+        },
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "fr": "bibliothèque"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "fr": "hôpital"
+        },
+        {
+          "zh": "超市",
+          "py": "chāoshì",
+          "fr": "supermarché"
+        },
+        {
+          "zh": "饭馆",
+          "py": "fànguǎn",
+          "fr": "restaurant"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "fr": "devant"
+        },
+        {
+          "zh": "后面",
+          "py": "hòumiàn",
+          "fr": "derrière"
+        },
+        {
+          "zh": "左边",
+          "py": "zuǒbian",
+          "fr": "à gauche"
+        },
+        {
+          "zh": "右边",
+          "py": "yòubian",
+          "fr": "à droite"
+        },
+        {
+          "zh": "旁边",
+          "py": "pángbiān",
+          "fr": "à côté"
+        },
+        {
+          "zh": "对面",
+          "py": "duìmiàn",
+          "fr": "en face"
+        },
+        {
+          "zh": "附近",
+          "py": "fùjìn",
+          "fr": "près d’ici"
+        },
+        {
+          "zh": "一直",
+          "py": "yìzhí",
+          "fr": "tout droit"
+        },
+        {
+          "zh": "走",
+          "py": "zǒu",
+          "fr": "marcher / aller"
+        },
+        {
+          "zh": "拐",
+          "py": "guǎi",
+          "fr": "tourner"
+        },
+        {
+          "zh": "远",
+          "py": "yuǎn",
+          "fr": "loin"
+        },
+        {
+          "zh": "近",
+          "py": "jìn",
+          "fr": "près"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Localiser avec 在",
+          "explanation": "Le schéma sujet + 在 + lieu permet d’indiquer une localisation.",
+          "zh": "银行在学校旁边。",
+          "py": "Yínháng zài xuéxiào pángbiān.",
+          "fr": "La banque est à côté de l’école."
+        },
+        {
+          "title": "Demander un emplacement",
+          "explanation": "哪儿 occupe la place du lieu inconnu, généralement après 在.",
+          "zh": "银行在哪儿？",
+          "py": "Yínháng zài nǎr?",
+          "fr": "Où est la banque ?"
+        },
+        {
+          "title": "Indiquer la direction",
+          "explanation": "On combine 一直走 et 向左 / 向右拐 pour guider une personne.",
+          "zh": "一直走，然后向右拐。",
+          "py": "Yìzhí zǒu, ránhòu xiàng yòu guǎi.",
+          "fr": "Allez tout droit puis tournez à droite."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Chercher la banque",
+          "context": "Dans la rue.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "请问，银行在哪儿？",
+              "py": "Qǐngwèn, yínháng zài nǎr?",
+              "fr": "Excusez-moi, où est la banque ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "银行在超市旁边。",
+              "py": "Yínháng zài chāoshì pángbiān.",
+              "fr": "Elle est à côté du supermarché."
+            },
+            {
+              "speaker": "A",
+              "zh": "离这儿远吗？",
+              "py": "Lí zhèr yuǎn ma?",
+              "fr": "C’est loin d’ici ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不远，一直走。",
+              "py": "Bù yuǎn, yìzhí zǒu.",
+              "fr": "Non, allez tout droit."
+            },
+            {
+              "speaker": "A",
+              "zh": "然后呢？",
+              "py": "Ránhòu ne?",
+              "fr": "Et ensuite ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "向左拐就到了。",
+              "py": "Xiàng zuǒ guǎi jiù dào le.",
+              "fr": "Tournez à gauche et vous y serez."
+            }
+          ]
+        },
+        {
+          "title": "Dans le campus",
+          "context": "Un étudiant cherche une bibliothèque.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "图书馆在哪儿？",
+              "py": "Túshūguǎn zài nǎr?",
+              "fr": "Où est la bibliothèque ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "在教学楼后面。",
+              "py": "Zài jiàoxuélóu hòumiàn.",
+              "fr": "Derrière le bâtiment des cours."
+            },
+            {
+              "speaker": "A",
+              "zh": "医院在附近吗？",
+              "py": "Yīyuàn zài fùjìn ma?",
+              "fr": "L’hôpital est près d’ici ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不，医院比较远。",
+              "py": "Bù, yīyuàn bǐjiào yuǎn.",
+              "fr": "Non, l’hôpital est assez loin."
+            },
+            {
+              "speaker": "A",
+              "zh": "谢谢你的帮助！",
+              "py": "Xièxie nǐ de bāngzhù!",
+              "fr": "Merci de ton aide !"
+            },
+            {
+              "speaker": "B",
+              "zh": "不客气！",
+              "py": "Bú kèqi!",
+              "fr": "De rien !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Entraîne-toi aux sons rétroflexes zh, ch, sh dans zhèr, chāoshì et shū.",
+      "mission": "Décris le chemin entre ton école et une banque fictive avec au moins trois indications spatiales."
+    },
+    {
+      "id": 9,
+      "hanzi": "今天几月几号",
+      "title": "Nous sommes quel jour du mois ?",
+      "en": "What’s the date today",
+      "sourcePage": 71,
+      "goal": "Exprimer dates précises, anniversaires, années, semaines et heures de rendez-vous.",
+      "vocab": [
+        {
+          "zh": "日期",
+          "py": "rìqī",
+          "fr": "date"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "fr": "aujourd’hui"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "fr": "hier"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "fr": "demain"
+        },
+        {
+          "zh": "后天",
+          "py": "hòutiān",
+          "fr": "après-demain"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "fr": "année"
+        },
+        {
+          "zh": "月",
+          "py": "yuè",
+          "fr": "mois"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "fr": "jour du mois"
+        },
+        {
+          "zh": "星期",
+          "py": "xīngqī",
+          "fr": "semaine"
+        },
+        {
+          "zh": "生日",
+          "py": "shēngrì",
+          "fr": "anniversaire"
+        },
+        {
+          "zh": "什么时候",
+          "py": "shénme shíhou",
+          "fr": "quand"
+        },
+        {
+          "zh": "几号",
+          "py": "jǐ hào",
+          "fr": "le combien"
+        },
+        {
+          "zh": "今年",
+          "py": "jīnnián",
+          "fr": "cette année"
+        },
+        {
+          "zh": "去年",
+          "py": "qùnián",
+          "fr": "l’année passée"
+        },
+        {
+          "zh": "明年",
+          "py": "míngnián",
+          "fr": "l’année prochaine"
+        },
+        {
+          "zh": "参加",
+          "py": "cānjiā",
+          "fr": "participer"
+        },
+        {
+          "zh": "聚会",
+          "py": "jùhuì",
+          "fr": "fête / réunion"
+        },
+        {
+          "zh": "星期天",
+          "py": "xīngqītiān",
+          "fr": "dimanche"
+        },
+        {
+          "zh": "上午",
+          "py": "shàngwǔ",
+          "fr": "matinée"
+        },
+        {
+          "zh": "下午",
+          "py": "xiàwǔ",
+          "fr": "après-midi"
+        },
+        {
+          "zh": "见面",
+          "py": "jiànmiàn",
+          "fr": "se voir"
+        },
+        {
+          "zh": "有空",
+          "py": "yǒu kòng",
+          "fr": "être libre"
+        },
+        {
+          "zh": "祝",
+          "py": "zhù",
+          "fr": "souhaiter"
+        },
+        {
+          "zh": "快乐",
+          "py": "kuàilè",
+          "fr": "heureux / joyeux"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Ordre des dates",
+          "explanation": "En chinois, l’ordre est année + mois + jour, du plus grand au plus petit.",
+          "zh": "今天是五月十号。",
+          "py": "Jīntiān shì wǔ yuè shí hào.",
+          "fr": "Aujourd’hui, c’est le 10 mai."
+        },
+        {
+          "title": "Demander « quand »",
+          "explanation": "什么时候 s’utilise pour interroger le moment d’un événement.",
+          "zh": "你什么时候有空？",
+          "py": "Nǐ shénme shíhou yǒu kòng?",
+          "fr": "Quand es-tu libre ?"
+        },
+        {
+          "title": "Anniversaire",
+          "explanation": "生日快乐 est le souhait classique pour un anniversaire.",
+          "zh": "祝你生日快乐！",
+          "py": "Zhù nǐ shēngrì kuàilè!",
+          "fr": "Joyeux anniversaire !"
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Anniversaire",
+          "context": "Deux amies préparent une fête.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你的生日是几月几号？",
+              "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?",
+              "fr": "C’est quand ton anniversaire ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "五月十号。",
+              "py": "Wǔ yuè shí hào.",
+              "fr": "Le 10 mai."
+            },
+            {
+              "speaker": "A",
+              "zh": "今年是星期几？",
+              "py": "Jīnnián shì xīngqī jǐ?",
+              "fr": "Cette année, ça tombe quel jour ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "是星期天。",
+              "py": "Shì xīngqītiān.",
+              "fr": "C’est dimanche."
+            },
+            {
+              "speaker": "A",
+              "zh": "我们一起吃饭吧！",
+              "py": "Wǒmen yìqǐ chīfàn ba!",
+              "fr": "Allons manger ensemble !"
+            },
+            {
+              "speaker": "B",
+              "zh": "好啊，谢谢你！",
+              "py": "Hǎo a, xièxie nǐ!",
+              "fr": "Bonne idée, merci !"
+            }
+          ]
+        },
+        {
+          "title": "Préparer une rencontre",
+          "context": "Organiser un rendez-vous.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你什么时候有空？",
+              "py": "Nǐ shénme shíhou yǒu kòng?",
+              "fr": "Quand es-tu disponible ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "星期六下午有空。",
+              "py": "Xīngqīliù xiàwǔ yǒu kòng.",
+              "fr": "Samedi après-midi."
+            },
+            {
+              "speaker": "A",
+              "zh": "我们三点见面，好吗？",
+              "py": "Wǒmen sān diǎn jiànmiàn, hǎo ma?",
+              "fr": "On se voit à trois heures ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "可以，在哪儿见？",
+              "py": "Kěyǐ, zài nǎr jiàn?",
+              "fr": "D’accord, où ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "在图书馆门口。",
+              "py": "Zài túshūguǎn ménkǒu.",
+              "fr": "Devant la bibliothèque."
+            },
+            {
+              "speaker": "B",
+              "zh": "好，星期六见！",
+              "py": "Hǎo, xīngqīliù jiàn!",
+              "fr": "Bien, à samedi !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Prononce les nombres composés et l’enchaînement des dates : wǔ yuè shí hào.",
+      "mission": "Donne ta date d’anniversaire et organise un rendez-vous en mentionnant date, heure et lieu."
+    },
+    {
+      "id": 10,
+      "hanzi": "我每天八点上课",
+      "title": "J’ai cours tous les jours à huit heures",
+      "en": "I have class at 8 o’clock every day",
+      "sourcePage": 82,
+      "goal": "Décrire un emploi du temps, les heures, la fréquence et les activités quotidiennes.",
+      "vocab": [
+        {
+          "zh": "每天",
+          "py": "měitiān",
+          "fr": "chaque jour"
+        },
+        {
+          "zh": "早上",
+          "py": "zǎoshang",
+          "fr": "matin"
+        },
+        {
+          "zh": "起床",
+          "py": "qǐchuáng",
+          "fr": "se lever"
+        },
+        {
+          "zh": "洗澡",
+          "py": "xǐzǎo",
+          "fr": "prendre une douche"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chīfàn",
+          "fr": "manger"
+        },
+        {
+          "zh": "早饭",
+          "py": "zǎofàn",
+          "fr": "petit déjeuner"
+        },
+        {
+          "zh": "午饭",
+          "py": "wǔfàn",
+          "fr": "déjeuner"
+        },
+        {
+          "zh": "晚饭",
+          "py": "wǎnfàn",
+          "fr": "dîner"
+        },
+        {
+          "zh": "上课",
+          "py": "shàngkè",
+          "fr": "avoir cours"
+        },
+        {
+          "zh": "下课",
+          "py": "xiàkè",
+          "fr": "finir un cours"
+        },
+        {
+          "zh": "上学",
+          "py": "shàngxué",
+          "fr": "aller à l’école"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuìjiào",
+          "fr": "dormir"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "fr": "heure (sur l’horloge)"
+        },
+        {
+          "zh": "分",
+          "py": "fēn",
+          "fr": "minute"
+        },
+        {
+          "zh": "半",
+          "py": "bàn",
+          "fr": "demie"
+        },
+        {
+          "zh": "刻",
+          "py": "kè",
+          "fr": "quart d’heure"
+        },
+        {
+          "zh": "分钟",
+          "py": "fēnzhōng",
+          "fr": "minute (durée)"
+        },
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "fr": "maintenant"
+        },
+        {
+          "zh": "经常",
+          "py": "jīngcháng",
+          "fr": "souvent"
+        },
+        {
+          "zh": "有时候",
+          "py": "yǒu shíhou",
+          "fr": "parfois"
+        },
+        {
+          "zh": "一般",
+          "py": "yìbān",
+          "fr": "en général"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎnshang",
+          "fr": "soir"
+        },
+        {
+          "zh": "做作业",
+          "py": "zuò zuòyè",
+          "fr": "faire les devoirs"
+        },
+        {
+          "zh": "休息",
+          "py": "xiūxi",
+          "fr": "se reposer"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Heure avant l’action",
+          "explanation": "Le complément de temps se place généralement avant le verbe.",
+          "zh": "我每天八点上课。",
+          "py": "Wǒ měitiān bā diǎn shàngkè.",
+          "fr": "J’ai cours chaque jour à huit heures."
+        },
+        {
+          "title": "Exprimer la demie",
+          "explanation": "点半 signifie une heure et demie.",
+          "zh": "我七点半起床。",
+          "py": "Wǒ qī diǎn bàn qǐchuáng.",
+          "fr": "Je me lève à 7 h 30."
+        },
+        {
+          "title": "Fréquence",
+          "explanation": "每天 / 经常 / 有时候 indiquent différentes fréquences, en général avant le verbe.",
+          "zh": "我有时候晚上学习。",
+          "py": "Wǒ yǒu shíhou wǎnshang xuéxí.",
+          "fr": "J’étudie parfois le soir."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Routine du matin",
+          "context": "Deux étudiants comparent leurs habitudes.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你每天几点起床？",
+              "py": "Nǐ měitiān jǐ diǎn qǐchuáng?",
+              "fr": "À quelle heure te lèves-tu chaque jour ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我七点起床。",
+              "py": "Wǒ qī diǎn qǐchuáng.",
+              "fr": "À sept heures."
+            },
+            {
+              "speaker": "A",
+              "zh": "你几点吃早饭？",
+              "py": "Nǐ jǐ diǎn chī zǎofàn?",
+              "fr": "À quelle heure prends-tu ton petit déjeuner ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "七点半。",
+              "py": "Qī diǎn bàn.",
+              "fr": "À sept heures et demie."
+            },
+            {
+              "speaker": "A",
+              "zh": "你几点上课？",
+              "py": "Nǐ jǐ diǎn shàngkè?",
+              "fr": "À quelle heure as-tu cours ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我八点上课。",
+              "py": "Wǒ bā diǎn shàngkè.",
+              "fr": "J’ai cours à huit heures."
+            }
+          ]
+        },
+        {
+          "title": "Après les cours",
+          "context": "Parler de la soirée.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你晚上做什么？",
+              "py": "Nǐ wǎnshang zuò shénme?",
+              "fr": "Que fais-tu le soir ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我一般做作业。",
+              "py": "Wǒ yìbān zuò zuòyè.",
+              "fr": "En général, je fais mes devoirs."
+            },
+            {
+              "speaker": "A",
+              "zh": "你经常看电视吗？",
+              "py": "Nǐ jīngcháng kàn diànshì ma?",
+              "fr": "Regardes-tu souvent la télévision ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不经常，我有时候看书。",
+              "py": "Bù jīngcháng, wǒ yǒu shíhou kàn shū.",
+              "fr": "Pas souvent, je lis parfois."
+            },
+            {
+              "speaker": "A",
+              "zh": "你几点睡觉？",
+              "py": "Nǐ jǐ diǎn shuìjiào?",
+              "fr": "À quelle heure te couches-tu ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "十一点左右。",
+              "py": "Shíyī diǎn zuǒyòu.",
+              "fr": "Vers onze heures."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Pratique qī diǎn, qī diǎn bàn, bā diǎn yí kè et les contrastes diǎn / tiān.",
+      "mission": "Décris une journée type avec au moins cinq heures et trois adverbes de fréquence."
+    },
+    {
+      "id": 11,
+      "hanzi": "我住在留学生宿舍",
+      "title": "J’habite au dortoir des étudiants étrangers",
+      "en": "I stay in the International Student Dormitory",
+      "sourcePage": 95,
+      "goal": "Indiquer son adresse, sa chambre, son logement ; poser des questions de localisation et de possession.",
+      "vocab": [
+        {
+          "zh": "住",
+          "py": "zhù",
+          "fr": "habiter"
+        },
+        {
+          "zh": "住在",
+          "py": "zhù zài",
+          "fr": "habiter à"
+        },
+        {
+          "zh": "宿舍",
+          "py": "sùshè",
+          "fr": "dortoir"
+        },
+        {
+          "zh": "留学生",
+          "py": "liúxuéshēng",
+          "fr": "étudiant étranger"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "fr": "chambre"
+        },
+        {
+          "zh": "楼",
+          "py": "lóu",
+          "fr": "étage / bâtiment"
+        },
+        {
+          "zh": "层",
+          "py": "céng",
+          "fr": "étage"
+        },
+        {
+          "zh": "号",
+          "py": "hào",
+          "fr": "numéro"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "fr": "combien / quel numéro"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "fr": "avoir"
+        },
+        {
+          "zh": "没有",
+          "py": "méiyǒu",
+          "fr": "ne pas avoir"
+        },
+        {
+          "zh": "室友",
+          "py": "shìyǒu",
+          "fr": "colocataire"
+        },
+        {
+          "zh": "床",
+          "py": "chuáng",
+          "fr": "lit"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "fr": "table / bureau"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "fr": "chaise"
+        },
+        {
+          "zh": "门",
+          "py": "mén",
+          "fr": "porte"
+        },
+        {
+          "zh": "窗户",
+          "py": "chuānghu",
+          "fr": "fenêtre"
+        },
+        {
+          "zh": "卫生间",
+          "py": "wèishēngjiān",
+          "fr": "salle de bains / toilettes"
+        },
+        {
+          "zh": "厨房",
+          "py": "chúfáng",
+          "fr": "cuisine"
+        },
+        {
+          "zh": "干净",
+          "py": "gānjìng",
+          "fr": "propre"
+        },
+        {
+          "zh": "大",
+          "py": "dà",
+          "fr": "grand"
+        },
+        {
+          "zh": "小",
+          "py": "xiǎo",
+          "fr": "petit"
+        },
+        {
+          "zh": "方便",
+          "py": "fāngbiàn",
+          "fr": "pratique"
+        },
+        {
+          "zh": "离",
+          "py": "lí",
+          "fr": "être distant de"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Habiter à",
+          "explanation": "住在 associe habiter et le lieu de résidence.",
+          "zh": "我住在学生宿舍。",
+          "py": "Wǒ zhù zài xuéshēng sùshè.",
+          "fr": "J’habite au dortoir des étudiants."
+        },
+        {
+          "title": "Numéro de pièce",
+          "explanation": "Pour décrire un étage ou une chambre, on combine les nombres avec 楼 / 层 / 号.",
+          "zh": "我住在三楼。",
+          "py": "Wǒ zhù zài sān lóu.",
+          "fr": "J’habite au troisième étage."
+        },
+        {
+          "title": "Existence dans un lieu",
+          "explanation": "Lieu + 有 + objet indique ce qui se trouve à cet endroit.",
+          "zh": "房间里有两张床。",
+          "py": "Fángjiān li yǒu liǎng zhāng chuáng.",
+          "fr": "Il y a deux lits dans la chambre."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Une nouvelle chambre",
+          "context": "Un étudiant demande où vit son ami.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你住在哪儿？",
+              "py": "Nǐ zhù zài nǎr?",
+              "fr": "Où habites-tu ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我住在留学生宿舍。",
+              "py": "Wǒ zhù zài liúxuéshēng sùshè.",
+              "fr": "Au dortoir des étudiants étrangers."
+            },
+            {
+              "speaker": "A",
+              "zh": "你住几楼？",
+              "py": "Nǐ zhù jǐ lóu?",
+              "fr": "À quel étage ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "三楼，三零二号房间。",
+              "py": "Sān lóu, sān líng èr hào fángjiān.",
+              "fr": "Au troisième, chambre 302."
+            },
+            {
+              "speaker": "A",
+              "zh": "你的房间大吗？",
+              "py": "Nǐ de fángjiān dà ma?",
+              "fr": "Ta chambre est grande ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不大，但是很干净。",
+              "py": "Bú dà, dànshì hěn gānjìng.",
+              "fr": "Non, mais elle est propre."
+            }
+          ]
+        },
+        {
+          "title": "Visite du dortoir",
+          "context": "Un camarade découvre la chambre.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "请进！这是我的房间。",
+              "py": "Qǐng jìn! Zhè shì wǒ de fángjiān.",
+              "fr": "Entre ! Voici ma chambre."
+            },
+            {
+              "speaker": "B",
+              "zh": "房间里有几张床？",
+              "py": "Fángjiān li yǒu jǐ zhāng chuáng?",
+              "fr": "Combien de lits y a-t-il ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "有两张床和一张桌子。",
+              "py": "Yǒu liǎng zhāng chuáng hé yì zhāng zhuōzi.",
+              "fr": "Deux lits et un bureau."
+            },
+            {
+              "speaker": "B",
+              "zh": "你有室友吗？",
+              "py": "Nǐ yǒu shìyǒu ma?",
+              "fr": "As-tu un colocataire ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "有，他也是留学生。",
+              "py": "Yǒu, tā yě shì liúxuéshēng.",
+              "fr": "Oui, il est également étudiant étranger."
+            },
+            {
+              "speaker": "B",
+              "zh": "这里很方便。",
+              "py": "Zhèlǐ hěn fāngbiàn.",
+              "fr": "C’est très pratique ici."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Pratique les syllabes zhù, zhāng, chuáng et les oppositions c / ch et z / zh.",
+      "mission": "Décris ta chambre : étage, numéro, mobilier, colocataire et qualités du logement."
+    },
+    {
+      "id": 12,
+      "hanzi": "我在北京学习汉语",
+      "title": "J’étudie le chinois à Pékin",
+      "en": "I study Chinese in Beijing",
+      "sourcePage": 108,
+      "goal": "Décrire ses études, activités, lieux et moyens de transport, introduire 在 + lieu + verbe et 去.",
+      "vocab": [
+        {
+          "zh": "北京",
+          "py": "Běijīng",
+          "fr": "Pékin"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "fr": "à / dans"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "fr": "étudier"
+        },
+        {
+          "zh": "大学",
+          "py": "dàxué",
+          "fr": "université"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "fr": "langue chinoise"
+        },
+        {
+          "zh": "汉字",
+          "py": "Hànzì",
+          "fr": "caractère chinois"
+        },
+        {
+          "zh": "口语",
+          "py": "kǒuyǔ",
+          "fr": "expression orale"
+        },
+        {
+          "zh": "听力",
+          "py": "tīnglì",
+          "fr": "compréhension orale"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎoshī",
+          "fr": "enseignant"
+        },
+        {
+          "zh": "教室",
+          "py": "jiàoshì",
+          "fr": "salle de classe"
+        },
+        {
+          "zh": "图书馆",
+          "py": "túshūguǎn",
+          "fr": "bibliothèque"
+        },
+        {
+          "zh": "练习",
+          "py": "liànxí",
+          "fr": "s’entraîner"
+        },
+        {
+          "zh": "读",
+          "py": "dú",
+          "fr": "lire"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "fr": "écrire"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "fr": "écouter"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "fr": "parler"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "fr": "aller"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "fr": "venir"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "fr": "prendre (transport)"
+        },
+        {
+          "zh": "公共汽车",
+          "py": "gōnggòng qìchē",
+          "fr": "bus"
+        },
+        {
+          "zh": "地铁",
+          "py": "dìtiě",
+          "fr": "métro"
+        },
+        {
+          "zh": "骑自行车",
+          "py": "qí zìxíngchē",
+          "fr": "aller à vélo"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "fr": "ensemble"
+        },
+        {
+          "zh": "常常",
+          "py": "chángcháng",
+          "fr": "souvent"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Lieu avant le verbe",
+          "explanation": "Pour une action accomplie dans un endroit, 在 + lieu précède le verbe principal.",
+          "zh": "我在北京学习汉语。",
+          "py": "Wǒ zài Běijīng xuéxí Hànyǔ.",
+          "fr": "J’étudie le chinois à Pékin."
+        },
+        {
+          "title": "Aller faire quelque chose",
+          "explanation": "去 se combine avec un lieu, puis éventuellement une activité.",
+          "zh": "我去图书馆看书。",
+          "py": "Wǒ qù túshūguǎn kàn shū.",
+          "fr": "Je vais à la bibliothèque lire."
+        },
+        {
+          "title": "Transport avec 坐",
+          "explanation": "坐 précède le moyen de transport et peut être associé à 去.",
+          "zh": "我坐地铁去学校。",
+          "py": "Wǒ zuò dìtiě qù xuéxiào.",
+          "fr": "Je prends le métro pour aller à l’école."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Étudier à Pékin",
+          "context": "Deux étudiants parlent de leurs activités.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你在哪儿学习汉语？",
+              "py": "Nǐ zài nǎr xuéxí Hànyǔ?",
+              "fr": "Où étudies-tu le chinois ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我在北京大学学习汉语。",
+              "py": "Wǒ zài Běijīng Dàxué xuéxí Hànyǔ.",
+              "fr": "À l’université de Pékin."
+            },
+            {
+              "speaker": "A",
+              "zh": "你每天练习口语吗？",
+              "py": "Nǐ měitiān liànxí kǒuyǔ ma?",
+              "fr": "Pratiques-tu l’oral chaque jour ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，我常常跟朋友说汉语。",
+              "py": "Duì, wǒ chángcháng gēn péngyou shuō Hànyǔ.",
+              "fr": "Oui, je parle souvent chinois avec des amis."
+            },
+            {
+              "speaker": "A",
+              "zh": "你也练习写汉字吗？",
+              "py": "Nǐ yě liànxí xiě Hànzì ma?",
+              "fr": "Pratiques-tu aussi l’écriture ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "当然，我每天写汉字。",
+              "py": "Dāngrán, wǒ měitiān xiě Hànzì.",
+              "fr": "Bien sûr, chaque jour."
+            }
+          ]
+        },
+        {
+          "title": "Se rendre en cours",
+          "context": "Avant de partir de la résidence.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你怎么去学校？",
+              "py": "Nǐ zěnme qù xuéxiào?",
+              "fr": "Comment vas-tu à l’école ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我坐地铁去。",
+              "py": "Wǒ zuò dìtiě qù.",
+              "fr": "Je prends le métro."
+            },
+            {
+              "speaker": "A",
+              "zh": "你今天去哪儿？",
+              "py": "Nǐ jīntiān qù nǎr?",
+              "fr": "Où vas-tu aujourd’hui ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我去图书馆看书。",
+              "py": "Wǒ qù túshūguǎn kàn shū.",
+              "fr": "Je vais lire à la bibliothèque."
+            },
+            {
+              "speaker": "A",
+              "zh": "我们一起去吧！",
+              "py": "Wǒmen yìqǐ qù ba!",
+              "fr": "Allons-y ensemble !"
+            },
+            {
+              "speaker": "B",
+              "zh": "好，走吧！",
+              "py": "Hǎo, zǒu ba!",
+              "fr": "D’accord, allons-y !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Distingue qù / qí, l’articulation du g de gōnggòng et les tons de Běijīng.",
+      "mission": "Décris ton lieu d’étude, les matières, la fréquence des révisions et le trajet jusqu’à l’école."
+    },
+    {
+      "id": 13,
+      "hanzi": "你喜欢中餐还是西餐",
+      "title": "Préfères-tu la cuisine chinoise ou occidentale ?",
+      "en": "Do you like Chinese food or Western food",
+      "sourcePage": 121,
+      "goal": "Exprimer des goûts, choisir entre deux options avec 还是, proposer un repas et commander.",
+      "vocab": [
+        {
+          "zh": "喜欢",
+          "py": "xǐhuan",
+          "fr": "aimer / apprécier"
+        },
+        {
+          "zh": "中餐",
+          "py": "zhōngcān",
+          "fr": "cuisine chinoise"
+        },
+        {
+          "zh": "西餐",
+          "py": "xīcān",
+          "fr": "cuisine occidentale"
+        },
+        {
+          "zh": "还是",
+          "py": "háishi",
+          "fr": "ou (dans une question)"
+        },
+        {
+          "zh": "或者",
+          "py": "huòzhě",
+          "fr": "ou (dans une affirmation)"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "fr": "manger"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "fr": "boire"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "fr": "riz cuit"
+        },
+        {
+          "zh": "面条",
+          "py": "miàntiáo",
+          "fr": "nouilles"
+        },
+        {
+          "zh": "饺子",
+          "py": "jiǎozi",
+          "fr": "ravioli chinois"
+        },
+        {
+          "zh": "包子",
+          "py": "bāozi",
+          "fr": "brioche farcie"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "fr": "plat / légume"
+        },
+        {
+          "zh": "肉",
+          "py": "ròu",
+          "fr": "viande"
+        },
+        {
+          "zh": "鸡肉",
+          "py": "jīròu",
+          "fr": "poulet"
+        },
+        {
+          "zh": "鱼",
+          "py": "yú",
+          "fr": "poisson"
+        },
+        {
+          "zh": "牛肉",
+          "py": "niúròu",
+          "fr": "bœuf"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "fr": "thé"
+        },
+        {
+          "zh": "咖啡",
+          "py": "kāfēi",
+          "fr": "café"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎochī",
+          "fr": "délicieux"
+        },
+        {
+          "zh": "好喝",
+          "py": "hǎohē",
+          "fr": "bon à boire"
+        },
+        {
+          "zh": "辣",
+          "py": "là",
+          "fr": "piquant"
+        },
+        {
+          "zh": "甜",
+          "py": "tián",
+          "fr": "sucré"
+        },
+        {
+          "zh": "清淡",
+          "py": "qīngdàn",
+          "fr": "léger (nourriture)"
+        },
+        {
+          "zh": "点菜",
+          "py": "diǎn cài",
+          "fr": "commander un plat"
+        },
+        {
+          "zh": "菜单",
+          "py": "càidān",
+          "fr": "menu"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Choix interrogatif 还是",
+          "explanation": "Dans une question qui propose des alternatives, on emploie 还是.",
+          "zh": "你喜欢茶还是咖啡？",
+          "py": "Nǐ xǐhuan chá háishi kāfēi?",
+          "fr": "Tu préfères le thé ou le café ?"
+        },
+        {
+          "title": "Alternative déclarative 或者",
+          "explanation": "Dans un énoncé affirmatif, on utilise souvent 或者 pour « ou ».",
+          "zh": "我喝茶或者水。",
+          "py": "Wǒ hē chá huòzhě shuǐ.",
+          "fr": "Je bois du thé ou de l’eau."
+        },
+        {
+          "title": "Goûts avec 喜欢",
+          "explanation": "喜欢 est placé avant un nom ou un verbe qui représente l’activité aimée.",
+          "zh": "我喜欢吃面条。",
+          "py": "Wǒ xǐhuan chī miàntiáo.",
+          "fr": "J’aime manger des nouilles."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Choisir un restaurant",
+          "context": "Deux amis décident où déjeuner.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你喜欢中餐还是西餐？",
+              "py": "Nǐ xǐhuan zhōngcān háishi xīcān?",
+              "fr": "Tu préfères la cuisine chinoise ou occidentale ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我喜欢中餐。",
+              "py": "Wǒ xǐhuan zhōngcān.",
+              "fr": "Je préfère la cuisine chinoise."
+            },
+            {
+              "speaker": "A",
+              "zh": "你喜欢吃辣的吗？",
+              "py": "Nǐ xǐhuan chī là de ma?",
+              "fr": "Tu aimes la nourriture épicée ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不太喜欢，我喜欢清淡的菜。",
+              "py": "Bú tài xǐhuan, wǒ xǐhuan qīngdàn de cài.",
+              "fr": "Pas beaucoup, je préfère les plats légers."
+            },
+            {
+              "speaker": "A",
+              "zh": "那我们去吃饺子吧。",
+              "py": "Nà wǒmen qù chī jiǎozi ba.",
+              "fr": "Alors allons manger des raviolis."
+            },
+            {
+              "speaker": "B",
+              "zh": "好啊，我很喜欢饺子！",
+              "py": "Hǎo a, wǒ hěn xǐhuan jiǎozi!",
+              "fr": "Oui, j’adore ça !"
+            }
+          ]
+        },
+        {
+          "title": "Au restaurant",
+          "context": "Une serveuse prend la commande.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "您好，请问要点菜吗？",
+              "py": "Nín hǎo, qǐngwèn yào diǎn cài ma?",
+              "fr": "Bonjour, souhaitez-vous commander ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "要，一份米饭和一份鱼。",
+              "py": "Yào, yí fèn mǐfàn hé yí fèn yú.",
+              "fr": "Oui, du riz et du poisson."
+            },
+            {
+              "speaker": "A",
+              "zh": "您喝茶还是咖啡？",
+              "py": "Nín hē chá háishi kāfēi?",
+              "fr": "Thé ou café ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我要一杯茶。",
+              "py": "Wǒ yào yì bēi chá.",
+              "fr": "Une tasse de thé."
+            },
+            {
+              "speaker": "A",
+              "zh": "好的，请稍等。",
+              "py": "Hǎo de, qǐng shāo děng.",
+              "fr": "Très bien, un instant."
+            },
+            {
+              "speaker": "B",
+              "zh": "谢谢！",
+              "py": "Xièxie!",
+              "fr": "Merci !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Exerce sh / x dans xǐhuan, xīcān, et le ton 4 de là.",
+      "mission": "Demande les goûts de ton partenaire : plats, boissons et niveau de piquant ; passe une commande."
+    },
+    {
+      "id": 14,
+      "hanzi": "我搬家了",
+      "title": "J’ai déménagé",
+      "en": "I’ve moved",
+      "sourcePage": 134,
+      "goal": "Parler d’un déménagement, d’une nouvelle situation, de lieux et des changements introduits par 了.",
+      "vocab": [
+        {
+          "zh": "搬家",
+          "py": "bānjiā",
+          "fr": "déménager"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "fr": "particule d’accompli / changement"
+        },
+        {
+          "zh": "新",
+          "py": "xīn",
+          "fr": "nouveau"
+        },
+        {
+          "zh": "旧",
+          "py": "jiù",
+          "fr": "ancien"
+        },
+        {
+          "zh": "房子",
+          "py": "fángzi",
+          "fr": "maison / appartement"
+        },
+        {
+          "zh": "公寓",
+          "py": "gōngyù",
+          "fr": "appartement"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "fr": "chambre"
+        },
+        {
+          "zh": "地址",
+          "py": "dìzhǐ",
+          "fr": "adresse"
+        },
+        {
+          "zh": "附近",
+          "py": "fùjìn",
+          "fr": "alentours"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "fr": "joli"
+        },
+        {
+          "zh": "安静",
+          "py": "ānjìng",
+          "fr": "calme"
+        },
+        {
+          "zh": "热闹",
+          "py": "rènao",
+          "fr": "animé"
+        },
+        {
+          "zh": "方便",
+          "py": "fāngbiàn",
+          "fr": "pratique"
+        },
+        {
+          "zh": "离",
+          "py": "lí",
+          "fr": "être éloigné de"
+        },
+        {
+          "zh": "近",
+          "py": "jìn",
+          "fr": "près"
+        },
+        {
+          "zh": "远",
+          "py": "yuǎn",
+          "fr": "loin"
+        },
+        {
+          "zh": "找到",
+          "py": "zhǎodào",
+          "fr": "trouver"
+        },
+        {
+          "zh": "钥匙",
+          "py": "yàoshi",
+          "fr": "clé"
+        },
+        {
+          "zh": "沙发",
+          "py": "shāfā",
+          "fr": "canapé"
+        },
+        {
+          "zh": "家具",
+          "py": "jiājù",
+          "fr": "meubles"
+        },
+        {
+          "zh": "帮忙",
+          "py": "bāngmáng",
+          "fr": "donner un coup de main"
+        },
+        {
+          "zh": "整理",
+          "py": "zhěnglǐ",
+          "fr": "ranger"
+        },
+        {
+          "zh": "干净",
+          "py": "gānjìng",
+          "fr": "propre"
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "fr": "fatigué"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐjīng",
+          "fr": "déjà"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Changement avec 了",
+          "explanation": "En fin de phrase, 了 peut marquer une nouvelle situation, par exemple déménager.",
+          "zh": "我搬家了。",
+          "py": "Wǒ bānjiā le.",
+          "fr": "J’ai déménagé."
+        },
+        {
+          "title": "Distance avec 离",
+          "explanation": "A 离 B 近 / 远 donne la distance relative entre deux lieux.",
+          "zh": "我家离学校很近。",
+          "py": "Wǒ jiā lí xuéxiào hěn jìn.",
+          "fr": "J’habite près de l’école."
+        },
+        {
+          "title": "Résultat avec 到",
+          "explanation": "到 placé après un verbe peut marquer l’atteinte d’un résultat.",
+          "zh": "我找到新房子了。",
+          "py": "Wǒ zhǎodào xīn fángzi le.",
+          "fr": "J’ai trouvé un nouvel appartement."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Annoncer son déménagement",
+          "context": "Une amie appelle après avoir changé d’adresse.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "听说你搬家了？",
+              "py": "Tīngshuō nǐ bānjiā le?",
+              "fr": "J’ai entendu dire que tu as déménagé ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，我搬到新公寓了。",
+              "py": "Duì, wǒ bān dào xīn gōngyù le.",
+              "fr": "Oui, dans un nouvel appartement."
+            },
+            {
+              "speaker": "A",
+              "zh": "新房子怎么样？",
+              "py": "Xīn fángzi zěnmeyàng?",
+              "fr": "Il est comment ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "很漂亮，也很安静。",
+              "py": "Hěn piàoliang, yě hěn ānjìng.",
+              "fr": "Très joli et calme."
+            },
+            {
+              "speaker": "A",
+              "zh": "离学校远吗？",
+              "py": "Lí xuéxiào yuǎn ma?",
+              "fr": "C’est loin de l’école ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不远，走路十分钟。",
+              "py": "Bù yuǎn, zǒulù shí fēnzhōng.",
+              "fr": "Non, dix minutes à pied."
+            }
+          ]
+        },
+        {
+          "title": "Aider à emménager",
+          "context": "Un ami arrive avec des cartons.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你需要帮忙吗？",
+              "py": "Nǐ xūyào bāngmáng ma?",
+              "fr": "As-tu besoin d’aide ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "需要，谢谢你！",
+              "py": "Xūyào, xièxie nǐ!",
+              "fr": "Oui, merci !"
+            },
+            {
+              "speaker": "A",
+              "zh": "这些书放在哪儿？",
+              "py": "Zhèxiē shū fàng zài nǎr?",
+              "fr": "Où dois-je mettre ces livres ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "放在桌子上吧。",
+              "py": "Fàng zài zhuōzi shang ba.",
+              "fr": "Sur la table, s’il te plaît."
+            },
+            {
+              "speaker": "A",
+              "zh": "我们整理完了吗？",
+              "py": "Wǒmen zhěnglǐ wán le ma?",
+              "fr": "On a fini de ranger ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "还没有，沙发还没搬。",
+              "py": "Hái méiyǒu, shāfā hái méi bān.",
+              "fr": "Pas encore, il reste le canapé."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Répète bān / bàn, jìn / jìng et la particule le qui se prononce légère.",
+      "mission": "Annonce une nouvelle adresse, décris le quartier et demande une aide pour emménager."
+    },
+    {
+      "id": 15,
+      "hanzi": "周末我们去了天津",
+      "title": "Nous sommes allés à Tianjin le week-end",
+      "en": "We went to Tianjin at the weekend",
+      "sourcePage": 146,
+      "goal": "Raconter une sortie passée, situer les actions achevées et les séquences avec 了 et 先…然后.",
+      "vocab": [
+        {
+          "zh": "周末",
+          "py": "zhōumò",
+          "fr": "week-end"
+        },
+        {
+          "zh": "上周",
+          "py": "shàng zhōu",
+          "fr": "semaine dernière"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "fr": "hier"
+        },
+        {
+          "zh": "去年",
+          "py": "qùnián",
+          "fr": "année dernière"
+        },
+        {
+          "zh": "天津",
+          "py": "Tiānjīn",
+          "fr": "Tianjin"
+        },
+        {
+          "zh": "旅游",
+          "py": "lǚyóu",
+          "fr": "voyager"
+        },
+        {
+          "zh": "旅行",
+          "py": "lǚxíng",
+          "fr": "voyage"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "fr": "aller"
+        },
+        {
+          "zh": "去了",
+          "py": "qù le",
+          "fr": "est allé"
+        },
+        {
+          "zh": "坐火车",
+          "py": "zuò huǒchē",
+          "fr": "prendre le train"
+        },
+        {
+          "zh": "坐飞机",
+          "py": "zuò fēijī",
+          "fr": "prendre l’avion"
+        },
+        {
+          "zh": "火车站",
+          "py": "huǒchēzhàn",
+          "fr": "gare"
+        },
+        {
+          "zh": "参观",
+          "py": "cānguān",
+          "fr": "visiter"
+        },
+        {
+          "zh": "拍照",
+          "py": "pāizhào",
+          "fr": "prendre des photos"
+        },
+        {
+          "zh": "景点",
+          "py": "jǐngdiǎn",
+          "fr": "site touristique"
+        },
+        {
+          "zh": "博物馆",
+          "py": "bówùguǎn",
+          "fr": "musée"
+        },
+        {
+          "zh": "有意思",
+          "py": "yǒu yìsi",
+          "fr": "intéressant"
+        },
+        {
+          "zh": "好玩",
+          "py": "hǎowán",
+          "fr": "amusant"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "fr": "d’abord"
+        },
+        {
+          "zh": "然后",
+          "py": "ránhòu",
+          "fr": "ensuite"
+        },
+        {
+          "zh": "最后",
+          "py": "zuìhòu",
+          "fr": "enfin"
+        },
+        {
+          "zh": "回来",
+          "py": "huílái",
+          "fr": "revenir"
+        },
+        {
+          "zh": "买票",
+          "py": "mǎi piào",
+          "fr": "acheter des billets"
+        },
+        {
+          "zh": "玩",
+          "py": "wán",
+          "fr": "s’amuser"
+        },
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "fr": "temps (météo)"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Accompli avec 了",
+          "explanation": "Après le verbe, 了 indique souvent qu’une action a été réalisée.",
+          "zh": "我们去了天津。",
+          "py": "Wǒmen qù le Tiānjīn.",
+          "fr": "Nous sommes allés à Tianjin."
+        },
+        {
+          "title": "Raconter en ordre",
+          "explanation": "先…然后…最后… décrit la succession des étapes d’une activité.",
+          "zh": "我们先参观，然后吃饭。",
+          "py": "Wǒmen xiān cānguān, ránhòu chīfàn.",
+          "fr": "Nous avons d’abord visité, puis mangé."
+        },
+        {
+          "title": "Interroger le passé",
+          "explanation": "Le marqueur 了 peut apparaître dans une question sur un événement achevé.",
+          "zh": "你昨天去哪儿了？",
+          "py": "Nǐ zuótiān qù nǎr le?",
+          "fr": "Où es-tu allé hier ?"
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Retour d’excursion",
+          "context": "Deux étudiants se racontent leur week-end.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "周末你去哪儿了？",
+              "py": "Zhōumò nǐ qù nǎr le?",
+              "fr": "Où es-tu allé ce week-end ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我跟朋友去了天津。",
+              "py": "Wǒ gēn péngyou qù le Tiānjīn.",
+              "fr": "Je suis allé à Tianjin avec des amis."
+            },
+            {
+              "speaker": "A",
+              "zh": "你们坐火车去的吗？",
+              "py": "Nǐmen zuò huǒchē qù de ma?",
+              "fr": "Vous avez pris le train ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，我们坐火车去的。",
+              "py": "Duì, wǒmen zuò huǒchē qù de.",
+              "fr": "Oui, nous avons pris le train."
+            },
+            {
+              "speaker": "A",
+              "zh": "好玩吗？",
+              "py": "Hǎowán ma?",
+              "fr": "C’était amusant ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "非常好玩！",
+              "py": "Fēicháng hǎowán!",
+              "fr": "Très amusant !"
+            }
+          ]
+        },
+        {
+          "title": "Montrer des photos",
+          "context": "Au retour de voyage.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "这些照片是在哪儿拍的？",
+              "py": "Zhèxiē zhàopiàn shì zài nǎr pāi de?",
+              "fr": "Où as-tu pris ces photos ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "在天津的博物馆。",
+              "py": "Zài Tiānjīn de bówùguǎn.",
+              "fr": "Au musée de Tianjin."
+            },
+            {
+              "speaker": "A",
+              "zh": "你们先做了什么？",
+              "py": "Nǐmen xiān zuò le shénme?",
+              "fr": "Qu’avez-vous fait d’abord ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我们先参观博物馆。",
+              "py": "Wǒmen xiān cānguān bówùguǎn.",
+              "fr": "Nous avons d’abord visité le musée."
+            },
+            {
+              "speaker": "A",
+              "zh": "然后呢？",
+              "py": "Ránhòu ne?",
+              "fr": "Et ensuite ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "然后吃了晚饭，最后回北京。",
+              "py": "Ránhòu chī le wǎnfàn, zuìhòu huí Běijīng.",
+              "fr": "Puis nous avons dîné, enfin nous sommes rentrés à Pékin."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Répète lǚyóu, huǒchē, zhàopiàn et différencie qù / qǔ.",
+      "mission": "Raconte ta dernière sortie en six phrases avec un lieu, un transport et trois étapes chronologiques."
+    },
+    {
+      "id": 16,
+      "hanzi": "你能教英语吗",
+      "title": "Peux-tu enseigner l’anglais ?",
+      "en": "Can you teach English",
+      "sourcePage": 158,
+      "goal": "Demander une capacité, solliciter une aide, distinguer 会, 能 et 可以, inviter à enseigner.",
+      "vocab": [
+        {
+          "zh": "能",
+          "py": "néng",
+          "fr": "pouvoir (capacité, possibilité)"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "fr": "savoir faire (appris)"
+        },
+        {
+          "zh": "可以",
+          "py": "kěyǐ",
+          "fr": "pouvoir / être autorisé"
+        },
+        {
+          "zh": "教",
+          "py": "jiāo",
+          "fr": "enseigner"
+        },
+        {
+          "zh": "英语",
+          "py": "Yīngyǔ",
+          "fr": "anglais"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "fr": "chinois"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "fr": "parler"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "fr": "écrire"
+        },
+        {
+          "zh": "读",
+          "py": "dú",
+          "fr": "lire"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "fr": "écouter"
+        },
+        {
+          "zh": "电脑",
+          "py": "diànnǎo",
+          "fr": "ordinateur"
+        },
+        {
+          "zh": "打字",
+          "py": "dǎzì",
+          "fr": "taper au clavier"
+        },
+        {
+          "zh": "帮忙",
+          "py": "bāngmáng",
+          "fr": "aider"
+        },
+        {
+          "zh": "问题",
+          "py": "wèntí",
+          "fr": "question / problème"
+        },
+        {
+          "zh": "明白",
+          "py": "míngbai",
+          "fr": "comprendre"
+        },
+        {
+          "zh": "懂",
+          "py": "dǒng",
+          "fr": "comprendre"
+        },
+        {
+          "zh": "解释",
+          "py": "jiěshì",
+          "fr": "expliquer"
+        },
+        {
+          "zh": "慢",
+          "py": "màn",
+          "fr": "lent"
+        },
+        {
+          "zh": "快",
+          "py": "kuài",
+          "fr": "rapide"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "fr": "de nouveau"
+        },
+        {
+          "zh": "一遍",
+          "py": "yí biàn",
+          "fr": "une fois / un passage"
+        },
+        {
+          "zh": "发音",
+          "py": "fāyīn",
+          "fr": "prononciation"
+        },
+        {
+          "zh": "练习",
+          "py": "liànxí",
+          "fr": "pratique"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "fr": "ensemble"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Capacité apprise 会",
+          "explanation": "会 indique souvent un savoir-faire acquis, comme parler une langue.",
+          "zh": "我会说英语。",
+          "py": "Wǒ huì shuō Yīngyǔ.",
+          "fr": "Je sais parler anglais."
+        },
+        {
+          "title": "Possibilité / capacité 能",
+          "explanation": "能 peut exprimer les circonstances et la capacité à accomplir une action.",
+          "zh": "你今天能来吗？",
+          "py": "Nǐ jīntiān néng lái ma?",
+          "fr": "Peux-tu venir aujourd’hui ?"
+        },
+        {
+          "title": "Permission 可以",
+          "explanation": "可以 est courant pour demander ou accorder une permission.",
+          "zh": "我可以问一个问题吗？",
+          "py": "Wǒ kěyǐ wèn yí ge wèntí ma?",
+          "fr": "Puis-je poser une question ?"
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Entraide linguistique",
+          "context": "Deux étudiants échangent leurs compétences.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你会说英语吗？",
+              "py": "Nǐ huì shuō Yīngyǔ ma?",
+              "fr": "Sais-tu parler anglais ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "会一点儿。",
+              "py": "Huì yìdiǎnr.",
+              "fr": "Un peu."
+            },
+            {
+              "speaker": "A",
+              "zh": "你能教我英语吗？",
+              "py": "Nǐ néng jiāo wǒ Yīngyǔ ma?",
+              "fr": "Peux-tu m’enseigner l’anglais ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "当然可以。",
+              "py": "Dāngrán kěyǐ.",
+              "fr": "Bien sûr."
+            },
+            {
+              "speaker": "A",
+              "zh": "我也可以教你汉语。",
+              "py": "Wǒ yě kěyǐ jiāo nǐ Hànyǔ.",
+              "fr": "Je peux aussi t’enseigner le chinois."
+            },
+            {
+              "speaker": "B",
+              "zh": "太好了，我们一起学习！",
+              "py": "Tài hǎo le, wǒmen yìqǐ xuéxí!",
+              "fr": "Génial, étudions ensemble !"
+            }
+          ]
+        },
+        {
+          "title": "En classe",
+          "context": "Un apprenant demande une explication.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "老师，我可以问一个问题吗？",
+              "py": "Lǎoshī, wǒ kěyǐ wèn yí ge wèntí ma?",
+              "fr": "Professeur, puis-je poser une question ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "可以，请说。",
+              "py": "Kěyǐ, qǐng shuō.",
+              "fr": "Oui, vas-y."
+            },
+            {
+              "speaker": "A",
+              "zh": "这个词是什么意思？",
+              "py": "Zhège cí shì shénme yìsi?",
+              "fr": "Que signifie ce mot ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我给你解释一下。",
+              "py": "Wǒ gěi nǐ jiěshì yíxià.",
+              "fr": "Je vais te l’expliquer."
+            },
+            {
+              "speaker": "A",
+              "zh": "请再说一遍，好吗？",
+              "py": "Qǐng zài shuō yí biàn, hǎo ma?",
+              "fr": "Pourriez-vous le répéter ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "当然，我说慢一点儿。",
+              "py": "Dāngrán, wǒ shuō màn yìdiǎnr.",
+              "fr": "Bien sûr, je vais parler plus lentement."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Différencie néng / nèng et les finales -eng et -en ; pratique les tons de kěyǐ.",
+      "mission": "Demande à un partenaire ce qu’il sait faire, ce qu’il peut faire aujourd’hui et une permission."
+    },
+    {
+      "id": 17,
+      "hanzi": "圣诞节快到了",
+      "title": "Noël approche",
+      "en": "Christmas is coming",
+      "sourcePage": 169,
+      "goal": "Parler d’un événement imminent, organiser une fête, inviter, exprimer préparatifs et souhaits.",
+      "vocab": [
+        {
+          "zh": "圣诞节",
+          "py": "Shèngdànjié",
+          "fr": "Noël"
+        },
+        {
+          "zh": "春节",
+          "py": "Chūnjié",
+          "fr": "Nouvel An chinois"
+        },
+        {
+          "zh": "节日",
+          "py": "jiérì",
+          "fr": "fête"
+        },
+        {
+          "zh": "快",
+          "py": "kuài",
+          "fr": "bientôt / rapidement"
+        },
+        {
+          "zh": "快要",
+          "py": "kuài yào",
+          "fr": "être sur le point de"
+        },
+        {
+          "zh": "到了",
+          "py": "dào le",
+          "fr": "arriver / approcher"
+        },
+        {
+          "zh": "准备",
+          "py": "zhǔnbèi",
+          "fr": "préparer"
+        },
+        {
+          "zh": "礼物",
+          "py": "lǐwù",
+          "fr": "cadeau"
+        },
+        {
+          "zh": "送",
+          "py": "sòng",
+          "fr": "offrir / envoyer"
+        },
+        {
+          "zh": "收到",
+          "py": "shōudào",
+          "fr": "recevoir"
+        },
+        {
+          "zh": "庆祝",
+          "py": "qìngzhù",
+          "fr": "célébrer"
+        },
+        {
+          "zh": "聚会",
+          "py": "jùhuì",
+          "fr": "réunion / fête"
+        },
+        {
+          "zh": "邀请",
+          "py": "yāoqǐng",
+          "fr": "inviter"
+        },
+        {
+          "zh": "参加",
+          "py": "cānjiā",
+          "fr": "participer"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "fr": "ensemble"
+        },
+        {
+          "zh": "唱歌",
+          "py": "chànggē",
+          "fr": "chanter"
+        },
+        {
+          "zh": "跳舞",
+          "py": "tiàowǔ",
+          "fr": "danser"
+        },
+        {
+          "zh": "蛋糕",
+          "py": "dàngāo",
+          "fr": "gâteau"
+        },
+        {
+          "zh": "开心",
+          "py": "kāixīn",
+          "fr": "heureux"
+        },
+        {
+          "zh": "快乐",
+          "py": "kuàilè",
+          "fr": "joyeux"
+        },
+        {
+          "zh": "希望",
+          "py": "xīwàng",
+          "fr": "espérer"
+        },
+        {
+          "zh": "打算",
+          "py": "dǎsuàn",
+          "fr": "prévoir"
+        },
+        {
+          "zh": "还有",
+          "py": "hái yǒu",
+          "fr": "il reste / encore"
+        },
+        {
+          "zh": "明年",
+          "py": "míngnián",
+          "fr": "l’an prochain"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Événement imminent 快…了",
+          "explanation": "快 + verbe / adjectif + 了 indique qu’un changement va bientôt arriver.",
+          "zh": "圣诞节快到了。",
+          "py": "Shèngdànjié kuài dào le.",
+          "fr": "Noël approche."
+        },
+        {
+          "title": "Projet avec 打算",
+          "explanation": "打算 annonce une intention ou un programme prévu.",
+          "zh": "我打算买礼物。",
+          "py": "Wǒ dǎsuàn mǎi lǐwù.",
+          "fr": "Je compte acheter des cadeaux."
+        },
+        {
+          "title": "Invitation",
+          "explanation": "邀请 + personne + activité / événement sert à convier quelqu’un.",
+          "zh": "我想邀请你参加聚会。",
+          "py": "Wǒ xiǎng yāoqǐng nǐ cānjiā jùhuì.",
+          "fr": "Je veux t’inviter à la fête."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Inviter à la fête",
+          "context": "Une étudiante organise Noël.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "圣诞节快到了！",
+              "py": "Shèngdànjié kuài dào le!",
+              "fr": "Noël approche !"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，你有什么打算？",
+              "py": "Duì, nǐ yǒu shénme dǎsuàn?",
+              "fr": "Oui, quels sont tes projets ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "我想举行一个聚会。",
+              "py": "Wǒ xiǎng jǔxíng yí ge jùhuì.",
+              "fr": "Je voudrais organiser une fête."
+            },
+            {
+              "speaker": "B",
+              "zh": "太好了！我可以来吗？",
+              "py": "Tài hǎo le! Wǒ kěyǐ lái ma?",
+              "fr": "Super ! Je peux venir ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "当然，我想邀请你。",
+              "py": "Dāngrán, wǒ xiǎng yāoqǐng nǐ.",
+              "fr": "Bien sûr, je voulais t’inviter."
+            },
+            {
+              "speaker": "B",
+              "zh": "谢谢，我一定来！",
+              "py": "Xièxie, wǒ yídìng lái!",
+              "fr": "Merci, je viendrai !"
+            }
+          ]
+        },
+        {
+          "title": "Préparer des cadeaux",
+          "context": "Deux amis font leurs courses.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你准备好礼物了吗？",
+              "py": "Nǐ zhǔnbèi hǎo lǐwù le ma?",
+              "fr": "As-tu préparé les cadeaux ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "还没有，我明天去买。",
+              "py": "Hái méiyǒu, wǒ míngtiān qù mǎi.",
+              "fr": "Pas encore, j’irai demain."
+            },
+            {
+              "speaker": "A",
+              "zh": "你要送给谁？",
+              "py": "Nǐ yào sòng gěi shéi?",
+              "fr": "À qui veux-tu les offrir ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "送给我的朋友。",
+              "py": "Sòng gěi wǒ de péngyou.",
+              "fr": "À mes amis."
+            },
+            {
+              "speaker": "A",
+              "zh": "我们一起去吧！",
+              "py": "Wǒmen yìqǐ qù ba!",
+              "fr": "Allons-y ensemble !"
+            },
+            {
+              "speaker": "B",
+              "zh": "好，圣诞快乐！",
+              "py": "Hǎo, Shèngdàn kuàilè!",
+              "fr": "D’accord, joyeux Noël !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Entraîne-toi sur jié, jiè, chàng, qìng et les syllabes de Shèngdànjié.",
+      "mission": "Prépare une invitation comprenant date, lieu, activités et cadeaux ; réponds à une invitation."
+    },
+    {
+      "id": 18,
+      "hanzi": "我们每天打一个多小时乒乓球",
+      "title": "Nous jouons au ping-pong plus d’une heure chaque jour",
+      "en": "We play pingpong for over an hour every day",
+      "sourcePage": 181,
+      "goal": "Parler des loisirs, des durées, des fréquences et des compléments de durée.",
+      "vocab": [
+        {
+          "zh": "每天",
+          "py": "měitiān",
+          "fr": "chaque jour"
+        },
+        {
+          "zh": "打",
+          "py": "dǎ",
+          "fr": "jouer (sport de balle)"
+        },
+        {
+          "zh": "乒乓球",
+          "py": "pīngpāngqiú",
+          "fr": "ping-pong"
+        },
+        {
+          "zh": "篮球",
+          "py": "lánqiú",
+          "fr": "basket-ball"
+        },
+        {
+          "zh": "足球",
+          "py": "zúqiú",
+          "fr": "football"
+        },
+        {
+          "zh": "羽毛球",
+          "py": "yǔmáoqiú",
+          "fr": "badminton"
+        },
+        {
+          "zh": "游泳",
+          "py": "yóuyǒng",
+          "fr": "nager"
+        },
+        {
+          "zh": "跑步",
+          "py": "pǎobù",
+          "fr": "courir"
+        },
+        {
+          "zh": "锻炼",
+          "py": "duànliàn",
+          "fr": "s’entraîner physiquement"
+        },
+        {
+          "zh": "小时",
+          "py": "xiǎoshí",
+          "fr": "heure (durée)"
+        },
+        {
+          "zh": "分钟",
+          "py": "fēnzhōng",
+          "fr": "minute"
+        },
+        {
+          "zh": "一个多小时",
+          "py": "yí ge duō xiǎoshí",
+          "fr": "plus d’une heure"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "fr": "plus de / davantage"
+        },
+        {
+          "zh": "次",
+          "py": "cì",
+          "fr": "fois"
+        },
+        {
+          "zh": "每周",
+          "py": "měi zhōu",
+          "fr": "chaque semaine"
+        },
+        {
+          "zh": "多久",
+          "py": "duōjiǔ",
+          "fr": "combien de temps"
+        },
+        {
+          "zh": "多长时间",
+          "py": "duō cháng shíjiān",
+          "fr": "combien de temps"
+        },
+        {
+          "zh": "经常",
+          "py": "jīngcháng",
+          "fr": "souvent"
+        },
+        {
+          "zh": "运动",
+          "py": "yùndòng",
+          "fr": "sport / faire du sport"
+        },
+        {
+          "zh": "身体",
+          "py": "shēntǐ",
+          "fr": "corps / santé"
+        },
+        {
+          "zh": "健康",
+          "py": "jiànkāng",
+          "fr": "en bonne santé"
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "fr": "fatigué"
+        },
+        {
+          "zh": "坚持",
+          "py": "jiānchí",
+          "fr": "persévérer"
+        },
+        {
+          "zh": "一起",
+          "py": "yìqǐ",
+          "fr": "ensemble"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Durée après le verbe",
+          "explanation": "La durée d’une activité vient souvent après le verbe et son complément éventuel selon le schéma choisi.",
+          "zh": "我们打一个小时乒乓球。",
+          "py": "Wǒmen dǎ yí ge xiǎoshí pīngpāngqiú.",
+          "fr": "Nous jouons au ping-pong pendant une heure."
+        },
+        {
+          "title": "Quantité approximative avec 多",
+          "explanation": "多 après une unité de quantité peut indiquer une durée un peu supérieure.",
+          "zh": "我跑了一个多小时。",
+          "py": "Wǒ pǎo le yí ge duō xiǎoshí.",
+          "fr": "J’ai couru pendant plus d’une heure."
+        },
+        {
+          "title": "Fréquence avec 次",
+          "explanation": "次 est le classificateur du nombre de fois qu’une action est accomplie.",
+          "zh": "我每周游泳两次。",
+          "py": "Wǒ měi zhōu yóuyǒng liǎng cì.",
+          "fr": "Je nage deux fois par semaine."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Routine sportive",
+          "context": "Deux camarades parlent de sport.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你喜欢什么运动？",
+              "py": "Nǐ xǐhuan shénme yùndòng?",
+              "fr": "Quel sport aimes-tu ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我喜欢打乒乓球。",
+              "py": "Wǒ xǐhuan dǎ pīngpāngqiú.",
+              "fr": "J’aime le ping-pong."
+            },
+            {
+              "speaker": "A",
+              "zh": "你每天打多久？",
+              "py": "Nǐ měitiān dǎ duōjiǔ?",
+              "fr": "Tu joues combien de temps par jour ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "一个多小时。",
+              "py": "Yí ge duō xiǎoshí.",
+              "fr": "Plus d’une heure."
+            },
+            {
+              "speaker": "A",
+              "zh": "你不累吗？",
+              "py": "Nǐ bú lèi ma?",
+              "fr": "Tu n’es pas fatigué ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "有点儿累，但是很开心。",
+              "py": "Yǒudiǎnr lèi, dànshì hěn kāixīn.",
+              "fr": "Un peu, mais je suis content."
+            }
+          ]
+        },
+        {
+          "title": "Faire du sport ensemble",
+          "context": "Au gymnase.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你每周运动几次？",
+              "py": "Nǐ měi zhōu yùndòng jǐ cì?",
+              "fr": "Combien de fois fais-tu du sport par semaine ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "三次。你呢？",
+              "py": "Sān cì. Nǐ ne?",
+              "fr": "Trois fois. Et toi ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "我每周游泳两次。",
+              "py": "Wǒ měi zhōu yóuyǒng liǎng cì.",
+              "fr": "Je nage deux fois par semaine."
+            },
+            {
+              "speaker": "B",
+              "zh": "明天一起打球吧！",
+              "py": "Míngtiān yìqǐ dǎ qiú ba!",
+              "fr": "Jouons ensemble demain !"
+            },
+            {
+              "speaker": "A",
+              "zh": "好，下午四点见。",
+              "py": "Hǎo, xiàwǔ sì diǎn jiàn.",
+              "fr": "D’accord, à quatre heures."
+            },
+            {
+              "speaker": "B",
+              "zh": "太好了！",
+              "py": "Tài hǎo le!",
+              "fr": "Super !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Répète le rythme de pīngpāngqiú, duōjiǔ, yùndòng et différencie cì / zì.",
+      "mission": "Décris trois loisirs et précise, pour chacun, sa fréquence et sa durée habituelle."
+    },
+    {
+      "id": 19,
+      "hanzi": "电脑已经修好了",
+      "title": "L’ordinateur est réparé",
+      "en": "The computer is fixed",
+      "sourcePage": 193,
+      "goal": "Décrire un problème matériel, un résultat d’action avec 好 / 完 et un changement achevé.",
+      "vocab": [
+        {
+          "zh": "电脑",
+          "py": "diànnǎo",
+          "fr": "ordinateur"
+        },
+        {
+          "zh": "手机",
+          "py": "shǒujī",
+          "fr": "téléphone portable"
+        },
+        {
+          "zh": "坏",
+          "py": "huài",
+          "fr": "cassé / en panne"
+        },
+        {
+          "zh": "修",
+          "py": "xiū",
+          "fr": "réparer"
+        },
+        {
+          "zh": "修好",
+          "py": "xiūhǎo",
+          "fr": "réparer avec succès"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐjīng",
+          "fr": "déjà"
+        },
+        {
+          "zh": "还没",
+          "py": "hái méi",
+          "fr": "pas encore"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "fr": "particule d’accompli"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "fr": "bien / terminé"
+        },
+        {
+          "zh": "完",
+          "py": "wán",
+          "fr": "finir"
+        },
+        {
+          "zh": "做完",
+          "py": "zuòwán",
+          "fr": "terminer de faire"
+        },
+        {
+          "zh": "找到",
+          "py": "zhǎodào",
+          "fr": "trouver"
+        },
+        {
+          "zh": "作业",
+          "py": "zuòyè",
+          "fr": "devoirs"
+        },
+        {
+          "zh": "文件",
+          "py": "wénjiàn",
+          "fr": "fichier"
+        },
+        {
+          "zh": "保存",
+          "py": "bǎocún",
+          "fr": "enregistrer"
+        },
+        {
+          "zh": "开机",
+          "py": "kāijī",
+          "fr": "allumer (ordinateur)"
+        },
+        {
+          "zh": "关机",
+          "py": "guānjī",
+          "fr": "éteindre (ordinateur)"
+        },
+        {
+          "zh": "网络",
+          "py": "wǎngluò",
+          "fr": "réseau / Internet"
+        },
+        {
+          "zh": "上网",
+          "py": "shàngwǎng",
+          "fr": "aller sur Internet"
+        },
+        {
+          "zh": "需要",
+          "py": "xūyào",
+          "fr": "avoir besoin"
+        },
+        {
+          "zh": "问题",
+          "py": "wèntí",
+          "fr": "problème"
+        },
+        {
+          "zh": "师傅",
+          "py": "shīfu",
+          "fr": "technicien / artisan"
+        },
+        {
+          "zh": "重新",
+          "py": "chóngxīn",
+          "fr": "à nouveau"
+        },
+        {
+          "zh": "终于",
+          "py": "zhōngyú",
+          "fr": "enfin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Résultat 好",
+          "explanation": "Le complément 好 peut indiquer qu’une action a réussi ou est achevée de manière satisfaisante.",
+          "zh": "电脑修好了。",
+          "py": "Diànnǎo xiūhǎo le.",
+          "fr": "L’ordinateur est réparé."
+        },
+        {
+          "title": "Résultat 完",
+          "explanation": "完 marque l’achèvement complet de l’action.",
+          "zh": "我做完作业了。",
+          "py": "Wǒ zuòwán zuòyè le.",
+          "fr": "J’ai terminé les devoirs."
+        },
+        {
+          "title": "Déjà et pas encore",
+          "explanation": "已经…了 décrit une action réalisée ; 还没… marque sa non-réalisation.",
+          "zh": "我已经找到文件了。",
+          "py": "Wǒ yǐjīng zhǎodào wénjiàn le.",
+          "fr": "J’ai déjà retrouvé le fichier."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Panne d’ordinateur",
+          "context": "Deux amis parlent d’un dépannage.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你的电脑怎么了？",
+              "py": "Nǐ de diànnǎo zěnme le?",
+              "fr": "Qu’a ton ordinateur ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "昨天坏了，不能开机。",
+              "py": "Zuótiān huài le, bù néng kāijī.",
+              "fr": "Il est tombé en panne hier, impossible de l’allumer."
+            },
+            {
+              "speaker": "A",
+              "zh": "现在修好了吗？",
+              "py": "Xiànzài xiūhǎo le ma?",
+              "fr": "Est-il réparé maintenant ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "已经修好了。",
+              "py": "Yǐjīng xiūhǎo le.",
+              "fr": "Oui, c’est déjà réparé."
+            },
+            {
+              "speaker": "A",
+              "zh": "太好了！文件都在吗？",
+              "py": "Tài hǎo le! Wénjiàn dōu zài ma?",
+              "fr": "Super ! Tes fichiers sont toujours là ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "都在，谢谢关心。",
+              "py": "Dōu zài, xièxie guānxīn.",
+              "fr": "Oui, tous, merci de t’en soucier."
+            }
+          ]
+        },
+        {
+          "title": "Terminer les devoirs",
+          "context": "Une étudiante doit envoyer un fichier.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你做完作业了吗？",
+              "py": "Nǐ zuòwán zuòyè le ma?",
+              "fr": "Tu as terminé les devoirs ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "还没做完。",
+              "py": "Hái méi zuòwán.",
+              "fr": "Pas encore."
+            },
+            {
+              "speaker": "A",
+              "zh": "你的电脑有问题吗？",
+              "py": "Nǐ de diànnǎo yǒu wèntí ma?",
+              "fr": "Ton ordinateur a un problème ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "网络坏了，不能上网。",
+              "py": "Wǎngluò huài le, bù néng shàngwǎng.",
+              "fr": "Internet est en panne."
+            },
+            {
+              "speaker": "A",
+              "zh": "你可以用我的电脑。",
+              "py": "Nǐ kěyǐ yòng wǒ de diànnǎo.",
+              "fr": "Tu peux utiliser mon ordinateur."
+            },
+            {
+              "speaker": "B",
+              "zh": "谢谢，我马上完成。",
+              "py": "Xièxie, wǒ mǎshàng wánchéng.",
+              "fr": "Merci, je vais finir tout de suite."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Pratique les tons de xiūhǎo, zuòwán et yǐjīng ; distingue jiàn / jiā.",
+      "mission": "Décris une panne, explique les étapes de réparation et dis si le problème est déjà résolu."
+    },
+    {
+      "id": 20,
+      "hanzi": "把照片贴在墙上",
+      "title": "Colle les photos au mur",
+      "en": "Stick the photographs on the wall",
+      "sourcePage": 204,
+      "goal": "Donner des consignes d’aménagement, introduire 把, les compléments de lieu et les verbes de placement.",
+      "vocab": [
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "fr": "marqueur d’objet déplacé / affecté"
+        },
+        {
+          "zh": "照片",
+          "py": "zhàopiàn",
+          "fr": "photographie"
+        },
+        {
+          "zh": "贴",
+          "py": "tiē",
+          "fr": "coller / afficher"
+        },
+        {
+          "zh": "墙",
+          "py": "qiáng",
+          "fr": "mur"
+        },
+        {
+          "zh": "墙上",
+          "py": "qiáng shang",
+          "fr": "sur le mur"
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuōzi",
+          "fr": "table"
+        },
+        {
+          "zh": "桌上",
+          "py": "zhuō shang",
+          "fr": "sur la table"
+        },
+        {
+          "zh": "地上",
+          "py": "dì shang",
+          "fr": "par terre"
+        },
+        {
+          "zh": "放",
+          "py": "fàng",
+          "fr": "mettre / poser"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "fr": "prendre"
+        },
+        {
+          "zh": "挂",
+          "py": "guà",
+          "fr": "suspendre"
+        },
+        {
+          "zh": "搬",
+          "py": "bān",
+          "fr": "déplacer (objet lourd)"
+        },
+        {
+          "zh": "整理",
+          "py": "zhěnglǐ",
+          "fr": "ranger"
+        },
+        {
+          "zh": "干净",
+          "py": "gānjìng",
+          "fr": "propre"
+        },
+        {
+          "zh": "漂亮",
+          "py": "piàoliang",
+          "fr": "joli"
+        },
+        {
+          "zh": "房间",
+          "py": "fángjiān",
+          "fr": "chambre"
+        },
+        {
+          "zh": "柜子",
+          "py": "guìzi",
+          "fr": "armoire"
+        },
+        {
+          "zh": "椅子",
+          "py": "yǐzi",
+          "fr": "chaise"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "fr": "livre"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "fr": "classificateur des livres"
+        },
+        {
+          "zh": "张",
+          "py": "zhāng",
+          "fr": "classificateur des objets plats"
+        },
+        {
+          "zh": "幅",
+          "py": "fú",
+          "fr": "classificateur d’image / tableau"
+        },
+        {
+          "zh": "左边",
+          "py": "zuǒbian",
+          "fr": "côté gauche"
+        },
+        {
+          "zh": "右边",
+          "py": "yòubian",
+          "fr": "côté droit"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Structure 把",
+          "explanation": "Avec 把, on place l’objet concerné avant le verbe pour préciser ce qu’on lui fait.",
+          "zh": "把照片贴在墙上。",
+          "py": "Bǎ zhàopiàn tiē zài qiáng shang.",
+          "fr": "Colle la photo au mur."
+        },
+        {
+          "title": "Destination avec 在",
+          "explanation": "Après un verbe de placement, 在 + lieu indique où l’objet se retrouve.",
+          "zh": "把书放在桌子上。",
+          "py": "Bǎ shū fàng zài zhuōzi shang.",
+          "fr": "Pose le livre sur la table."
+        },
+        {
+          "title": "Mesures 张 / 本",
+          "explanation": "On emploie 张 pour une photo et 本 pour un livre.",
+          "zh": "把两张照片放好。",
+          "py": "Bǎ liǎng zhāng zhàopiàn fàng hǎo.",
+          "fr": "Range bien les deux photos."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Décorer sa chambre",
+          "context": "Deux colocataires préparent leur décoration.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "我们把照片贴在哪儿？",
+              "py": "Wǒmen bǎ zhàopiàn tiē zài nǎr?",
+              "fr": "Où colle-t-on les photos ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "把照片贴在墙上吧。",
+              "py": "Bǎ zhàopiàn tiē zài qiáng shang ba.",
+              "fr": "Collons-les au mur."
+            },
+            {
+              "speaker": "A",
+              "zh": "这张照片放左边吗？",
+              "py": "Zhè zhāng zhàopiàn fàng zuǒbian ma?",
+              "fr": "Cette photo va à gauche ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，那张放右边。",
+              "py": "Duì, nà zhāng fàng yòubian.",
+              "fr": "Oui, l’autre à droite."
+            },
+            {
+              "speaker": "A",
+              "zh": "现在房间更漂亮了！",
+              "py": "Xiànzài fángjiān gèng piàoliang le!",
+              "fr": "La pièce est encore plus jolie !"
+            },
+            {
+              "speaker": "B",
+              "zh": "我也这么觉得。",
+              "py": "Wǒ yě zhème juéde.",
+              "fr": "Moi aussi, je trouve."
+            }
+          ]
+        },
+        {
+          "title": "Ranger le bureau",
+          "context": "Instructions entre camarades.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "请把书放在桌子上。",
+              "py": "Qǐng bǎ shū fàng zài zhuōzi shang.",
+              "fr": "Mets les livres sur le bureau, s’il te plaît."
+            },
+            {
+              "speaker": "B",
+              "zh": "好的，这些书放哪儿？",
+              "py": "Hǎo de, zhèxiē shū fàng nǎr?",
+              "fr": "D’accord, où vont ces livres ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "把它们放在柜子里。",
+              "py": "Bǎ tāmen fàng zài guìzi li.",
+              "fr": "Mets-les dans l’armoire."
+            },
+            {
+              "speaker": "B",
+              "zh": "椅子呢？",
+              "py": "Yǐzi ne?",
+              "fr": "Et la chaise ?"
+            },
+            {
+              "speaker": "A",
+              "zh": "把椅子搬到窗户旁边。",
+              "py": "Bǎ yǐzi bān dào chuānghu pángbiān.",
+              "fr": "Déplace-la près de la fenêtre."
+            },
+            {
+              "speaker": "B",
+              "zh": "好了，都整理好了！",
+              "py": "Hǎo le, dōu zhěnglǐ hǎo le!",
+              "fr": "Voilà, tout est rangé !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Distingue bǎ / bà, zhāng / zhàng et le ton de qiáng.",
+      "mission": "Donne cinq instructions de rangement utilisant 把 avec objets et destinations précises."
+    },
+    {
+      "id": 21,
+      "hanzi": "明天最高气温10度",
+      "title": "Demain, la température maximale sera de 10 degrés",
+      "en": "The highest temperature tomorrow will be 10 degrees",
+      "sourcePage": 215,
+      "goal": "Dire la météo, les températures, comparer des périodes et préparer des vêtements adaptés.",
+      "vocab": [
+        {
+          "zh": "天气",
+          "py": "tiānqì",
+          "fr": "météo / temps"
+        },
+        {
+          "zh": "气温",
+          "py": "qìwēn",
+          "fr": "température de l’air"
+        },
+        {
+          "zh": "温度",
+          "py": "wēndù",
+          "fr": "température"
+        },
+        {
+          "zh": "最高",
+          "py": "zuìgāo",
+          "fr": "le plus élevé"
+        },
+        {
+          "zh": "最低",
+          "py": "zuìdī",
+          "fr": "le plus bas"
+        },
+        {
+          "zh": "度",
+          "py": "dù",
+          "fr": "degré"
+        },
+        {
+          "zh": "零下",
+          "py": "língxià",
+          "fr": "au-dessous de zéro"
+        },
+        {
+          "zh": "明天",
+          "py": "míngtiān",
+          "fr": "demain"
+        },
+        {
+          "zh": "今天",
+          "py": "jīntiān",
+          "fr": "aujourd’hui"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuótiān",
+          "fr": "hier"
+        },
+        {
+          "zh": "晴天",
+          "py": "qíngtiān",
+          "fr": "ciel dégagé"
+        },
+        {
+          "zh": "阴天",
+          "py": "yīntiān",
+          "fr": "ciel couvert"
+        },
+        {
+          "zh": "多云",
+          "py": "duōyún",
+          "fr": "nuageux"
+        },
+        {
+          "zh": "下雨",
+          "py": "xiàyǔ",
+          "fr": "pleuvoir"
+        },
+        {
+          "zh": "下雪",
+          "py": "xiàxuě",
+          "fr": "neiger"
+        },
+        {
+          "zh": "刮风",
+          "py": "guāfēng",
+          "fr": "venter"
+        },
+        {
+          "zh": "冷",
+          "py": "lěng",
+          "fr": "froid"
+        },
+        {
+          "zh": "热",
+          "py": "rè",
+          "fr": "chaud"
+        },
+        {
+          "zh": "凉快",
+          "py": "liángkuai",
+          "fr": "frais / agréable"
+        },
+        {
+          "zh": "暖和",
+          "py": "nuǎnhuo",
+          "fr": "doux / chaud"
+        },
+        {
+          "zh": "预报",
+          "py": "yùbào",
+          "fr": "prévision"
+        },
+        {
+          "zh": "带",
+          "py": "dài",
+          "fr": "emporter"
+        },
+        {
+          "zh": "雨伞",
+          "py": "yǔsǎn",
+          "fr": "parapluie"
+        },
+        {
+          "zh": "外套",
+          "py": "wàitào",
+          "fr": "manteau / veste"
+        },
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "fr": "comparatif (« que »)"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Superlatif avec 最",
+          "explanation": "最 placé devant un adjectif indique le plus haut degré dans un contexte.",
+          "zh": "今天最高气温十度。",
+          "py": "Jīntiān zuìgāo qìwēn shí dù.",
+          "fr": "Aujourd’hui, la température maximale est de 10 degrés."
+        },
+        {
+          "title": "Comparaison avec 比",
+          "explanation": "A 比 B + adjectif permet de comparer deux entités.",
+          "zh": "明天比今天冷。",
+          "py": "Míngtiān bǐ jīntiān lěng.",
+          "fr": "Demain, il fera plus froid qu’aujourd’hui."
+        },
+        {
+          "title": "Météo avec 下",
+          "explanation": "下雨 et 下雪 sont des expressions verbales pour la pluie et la neige.",
+          "zh": "明天可能下雪。",
+          "py": "Míngtiān kěnéng xiàxuě.",
+          "fr": "Il pourrait neiger demain."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Consulter la météo",
+          "context": "Avant de sortir.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "明天天气怎么样？",
+              "py": "Míngtiān tiānqì zěnmeyàng?",
+              "fr": "Quel temps fera-t-il demain ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "天气预报说会下雨。",
+              "py": "Tiānqì yùbào shuō huì xiàyǔ.",
+              "fr": "La météo annonce de la pluie."
+            },
+            {
+              "speaker": "A",
+              "zh": "最高气温多少度？",
+              "py": "Zuìgāo qìwēn duōshao dù?",
+              "fr": "Quelle sera la température maximale ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "十度，最低三度。",
+              "py": "Shí dù, zuìdī sān dù.",
+              "fr": "10 degrés, minimum 3."
+            },
+            {
+              "speaker": "A",
+              "zh": "那我得带外套。",
+              "py": "Nà wǒ děi dài wàitào.",
+              "fr": "Alors je dois prendre une veste."
+            },
+            {
+              "speaker": "B",
+              "zh": "别忘了带雨伞！",
+              "py": "Bié wàng le dài yǔsǎn!",
+              "fr": "N’oublie pas le parapluie !"
+            }
+          ]
+        },
+        {
+          "title": "Comparer les saisons",
+          "context": "Deux personnes parlent du temps.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "今天比昨天冷吗？",
+              "py": "Jīntiān bǐ zuótiān lěng ma?",
+              "fr": "Fait-il plus froid qu’hier ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "对，今天冷多了。",
+              "py": "Duì, jīntiān lěng duō le.",
+              "fr": "Oui, beaucoup plus froid."
+            },
+            {
+              "speaker": "A",
+              "zh": "冬天常常下雪吗？",
+              "py": "Dōngtiān chángcháng xiàxuě ma?",
+              "fr": "Neige-t-il souvent en hiver ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "在这里不常下雪。",
+              "py": "Zài zhèlǐ bù cháng xiàxuě.",
+              "fr": "Pas souvent ici."
+            },
+            {
+              "speaker": "A",
+              "zh": "你喜欢什么天气？",
+              "py": "Nǐ xǐhuan shénme tiānqì?",
+              "fr": "Quel temps préfères-tu ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我喜欢晴天。",
+              "py": "Wǒ xǐhuan qíngtiān.",
+              "fr": "Je préfère le soleil."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Répète les tons de qìwēn, wēndù, yǔsǎn et l’enchaînement de zuìgāo.",
+      "mission": "Présente une prévision pour demain (soleil / pluie, minimum et maximum) et conseille une tenue."
+    },
+    {
+      "id": 22,
+      "hanzi": "我正在看新闻",
+      "title": "Je regarde les informations en ce moment",
+      "en": "I’m watching the news",
+      "sourcePage": 227,
+      "goal": "Parler d’une action en cours avec 正在, des médias, de ce que les gens font au même moment.",
+      "vocab": [
+        {
+          "zh": "正在",
+          "py": "zhèngzài",
+          "fr": "être en train de"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "fr": "en cours de / à"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "fr": "regarder / lire"
+        },
+        {
+          "zh": "新闻",
+          "py": "xīnwén",
+          "fr": "actualités"
+        },
+        {
+          "zh": "电视",
+          "py": "diànshì",
+          "fr": "télévision"
+        },
+        {
+          "zh": "电影",
+          "py": "diànyǐng",
+          "fr": "film"
+        },
+        {
+          "zh": "节目",
+          "py": "jiémù",
+          "fr": "émission"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "fr": "écouter"
+        },
+        {
+          "zh": "音乐",
+          "py": "yīnyuè",
+          "fr": "musique"
+        },
+        {
+          "zh": "广播",
+          "py": "guǎngbō",
+          "fr": "radio"
+        },
+        {
+          "zh": "手机",
+          "py": "shǒujī",
+          "fr": "portable"
+        },
+        {
+          "zh": "打电话",
+          "py": "dǎ diànhuà",
+          "fr": "téléphoner"
+        },
+        {
+          "zh": "发消息",
+          "py": "fā xiāoxi",
+          "fr": "envoyer un message"
+        },
+        {
+          "zh": "上网",
+          "py": "shàngwǎng",
+          "fr": "surfer sur Internet"
+        },
+        {
+          "zh": "做饭",
+          "py": "zuòfàn",
+          "fr": "cuisiner"
+        },
+        {
+          "zh": "做作业",
+          "py": "zuò zuòyè",
+          "fr": "faire ses devoirs"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "fr": "étudier"
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuìjiào",
+          "fr": "dormir"
+        },
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "fr": "maintenant"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "fr": "particule de progression / relance"
+        },
+        {
+          "zh": "别",
+          "py": "bié",
+          "fr": "ne… pas (interdiction)"
+        },
+        {
+          "zh": "打扰",
+          "py": "dǎrǎo",
+          "fr": "déranger"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "fr": "attendre"
+        },
+        {
+          "zh": "马上",
+          "py": "mǎshàng",
+          "fr": "tout de suite"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Progressif avec 正在",
+          "explanation": "正在 devant le verbe souligne l’action actuellement en cours.",
+          "zh": "我正在看新闻。",
+          "py": "Wǒ zhèngzài kàn xīnwén.",
+          "fr": "Je regarde les informations."
+        },
+        {
+          "title": "Progressif avec 在…呢",
+          "explanation": "在 + verbe + 呢 peut insister sur une action en cours.",
+          "zh": "他在做作业呢。",
+          "py": "Tā zài zuò zuòyè ne.",
+          "fr": "Il est en train de faire ses devoirs."
+        },
+        {
+          "title": "Interdiction avec 别",
+          "explanation": "别 placé devant le verbe permet de demander de ne pas faire quelque chose.",
+          "zh": "别打扰他。",
+          "py": "Bié dǎrǎo tā.",
+          "fr": "Ne le dérange pas."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Que fais-tu ?",
+          "context": "Un appel pendant les informations.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "喂，你在做什么？",
+              "py": "Wéi, nǐ zài zuò shénme?",
+              "fr": "Allô, que fais-tu ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我正在看新闻呢。",
+              "py": "Wǒ zhèngzài kàn xīnwén ne.",
+              "fr": "Je regarde les informations."
+            },
+            {
+              "speaker": "A",
+              "zh": "今天有什么新闻？",
+              "py": "Jīntiān yǒu shénme xīnwén?",
+              "fr": "Quelles sont les nouvelles ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我正在看天气预报。",
+              "py": "Wǒ zhèngzài kàn tiānqì yùbào.",
+              "fr": "Je regarde les prévisions météo."
+            },
+            {
+              "speaker": "A",
+              "zh": "那我等一会儿再打电话。",
+              "py": "Nà wǒ děng yíhuìr zài dǎ diànhuà.",
+              "fr": "Je rappellerai un peu plus tard."
+            },
+            {
+              "speaker": "B",
+              "zh": "好的，一会儿见。",
+              "py": "Hǎo de, yíhuìr jiàn.",
+              "fr": "D’accord, à tout à l’heure."
+            }
+          ]
+        },
+        {
+          "title": "À la maison",
+          "context": "Parler des activités de chacun.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "妈妈在做什么？",
+              "py": "Māma zài zuò shénme?",
+              "fr": "Que fait maman ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "她正在做饭。",
+              "py": "Tā zhèngzài zuòfàn.",
+              "fr": "Elle cuisine."
+            },
+            {
+              "speaker": "A",
+              "zh": "爸爸呢？",
+              "py": "Bàba ne?",
+              "fr": "Et papa ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "他在听音乐呢。",
+              "py": "Tā zài tīng yīnyuè ne.",
+              "fr": "Il écoute de la musique."
+            },
+            {
+              "speaker": "A",
+              "zh": "弟弟在睡觉吗？",
+              "py": "Dìdi zài shuìjiào ma?",
+              "fr": "Mon petit frère dort ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "不，他在写作业。",
+              "py": "Bù, tā zài xiě zuòyè.",
+              "fr": "Non, il fait ses devoirs."
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Entraîne-toi sur zhèngzài, xīnwén, diànyǐng et les finales -ing / -in.",
+      "mission": "Décris cinq actions en cours à la maison, dans la rue ou dans la classe."
+    },
+    {
+      "id": 23,
+      "hanzi": "时间过得真快",
+      "title": "Comme le temps passe vite !",
+      "en": "Time flies",
+      "sourcePage": 238,
+      "goal": "Faire un bilan du temps passé, évoquer l’expérience et les projets, exprimer la vitesse ou la durée d’un changement.",
+      "vocab": [
+        {
+          "zh": "时间",
+          "py": "shíjiān",
+          "fr": "temps"
+        },
+        {
+          "zh": "过",
+          "py": "guò",
+          "fr": "passer / expérience"
+        },
+        {
+          "zh": "得",
+          "py": "de",
+          "fr": "particule de complément"
+        },
+        {
+          "zh": "真",
+          "py": "zhēn",
+          "fr": "vraiment"
+        },
+        {
+          "zh": "快",
+          "py": "kuài",
+          "fr": "vite"
+        },
+        {
+          "zh": "慢",
+          "py": "màn",
+          "fr": "lentement"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐjīng",
+          "fr": "déjà"
+        },
+        {
+          "zh": "一年",
+          "py": "yì nián",
+          "fr": "un an"
+        },
+        {
+          "zh": "半年",
+          "py": "bàn nián",
+          "fr": "six mois"
+        },
+        {
+          "zh": "以前",
+          "py": "yǐqián",
+          "fr": "avant"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐhòu",
+          "fr": "après / plus tard"
+        },
+        {
+          "zh": "现在",
+          "py": "xiànzài",
+          "fr": "maintenant"
+        },
+        {
+          "zh": "将来",
+          "py": "jiānglái",
+          "fr": "avenir"
+        },
+        {
+          "zh": "毕业",
+          "py": "bìyè",
+          "fr": "obtenir son diplôme"
+        },
+        {
+          "zh": "学习",
+          "py": "xuéxí",
+          "fr": "étudier"
+        },
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "fr": "chinois"
+        },
+        {
+          "zh": "进步",
+          "py": "jìnbù",
+          "fr": "faire des progrès"
+        },
+        {
+          "zh": "提高",
+          "py": "tígāo",
+          "fr": "améliorer"
+        },
+        {
+          "zh": "水平",
+          "py": "shuǐpíng",
+          "fr": "niveau"
+        },
+        {
+          "zh": "希望",
+          "py": "xīwàng",
+          "fr": "espérer"
+        },
+        {
+          "zh": "计划",
+          "py": "jìhuà",
+          "fr": "projet / planifier"
+        },
+        {
+          "zh": "记得",
+          "py": "jìde",
+          "fr": "se rappeler"
+        },
+        {
+          "zh": "忘记",
+          "py": "wàngjì",
+          "fr": "oublier"
+        },
+        {
+          "zh": "努力",
+          "py": "nǔlì",
+          "fr": "faire des efforts"
+        },
+        {
+          "zh": "继续",
+          "py": "jìxù",
+          "fr": "continuer"
+        },
+        {
+          "zh": "见面",
+          "py": "jiànmiàn",
+          "fr": "se retrouver"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Complément de degré 得",
+          "explanation": "Le schéma verbe + 得 + adjectif décrit la manière ou le degré du déroulement.",
+          "zh": "时间过得真快！",
+          "py": "Shíjiān guò de zhēn kuài!",
+          "fr": "Comme le temps passe vite !"
+        },
+        {
+          "title": "Expérience avec 过",
+          "explanation": "Après un verbe, 过 peut marquer une expérience vécue au moins une fois.",
+          "zh": "我去过北京。",
+          "py": "Wǒ qù guo Běijīng.",
+          "fr": "Je suis déjà allé à Pékin."
+        },
+        {
+          "title": "Avant / après",
+          "explanation": "以前 et 以后 permettent de situer deux périodes dans le temps.",
+          "zh": "毕业以后我想继续学习。",
+          "py": "Bìyè yǐhòu wǒ xiǎng jìxù xuéxí.",
+          "fr": "Après mon diplôme, je veux continuer à étudier."
+        }
+      ],
+      "dialogs": [
+        {
+          "title": "Bilan du semestre",
+          "context": "Deux étudiants terminent leur cours.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "时间过得真快！",
+              "py": "Shíjiān guò de zhēn kuài!",
+              "fr": "Comme le temps passe vite !"
+            },
+            {
+              "speaker": "B",
+              "zh": "是啊，我们已经学了半年汉语。",
+              "py": "Shì a, wǒmen yǐjīng xué le bàn nián Hànyǔ.",
+              "fr": "Oui, cela fait six mois que nous étudions le chinois."
+            },
+            {
+              "speaker": "A",
+              "zh": "你觉得自己进步了吗？",
+              "py": "Nǐ juéde zìjǐ jìnbù le ma?",
+              "fr": "Penses-tu avoir progressé ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "进步了，但是还要努力。",
+              "py": "Jìnbù le, dànshì hái yào nǔlì.",
+              "fr": "Oui, mais je dois encore travailler."
+            },
+            {
+              "speaker": "A",
+              "zh": "以后你有什么计划？",
+              "py": "Yǐhòu nǐ yǒu shénme jìhuà?",
+              "fr": "Quels sont tes projets ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我想继续学汉语。",
+              "py": "Wǒ xiǎng jìxù xué Hànyǔ.",
+              "fr": "Je veux continuer le chinois."
+            }
+          ]
+        },
+        {
+          "title": "Garder le contact",
+          "context": "Des camarades vont quitter l’université.",
+          "lines": [
+            {
+              "speaker": "A",
+              "zh": "你毕业以后去哪儿？",
+              "py": "Nǐ bìyè yǐhòu qù nǎr?",
+              "fr": "Où iras-tu après ton diplôme ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "我打算回国工作。",
+              "py": "Wǒ dǎsuàn huíguó gōngzuò.",
+              "fr": "Je compte travailler dans mon pays."
+            },
+            {
+              "speaker": "A",
+              "zh": "我们以后还能见面吗？",
+              "py": "Wǒmen yǐhòu hái néng jiànmiàn ma?",
+              "fr": "Pourrons-nous nous revoir ?"
+            },
+            {
+              "speaker": "B",
+              "zh": "当然！我们保持联系。",
+              "py": "Dāngrán! Wǒmen bǎochí liánxì.",
+              "fr": "Bien sûr ! Restons en contact."
+            },
+            {
+              "speaker": "A",
+              "zh": "祝你一切顺利！",
+              "py": "Zhù nǐ yíqiè shùnlì!",
+              "fr": "Je te souhaite le meilleur !"
+            },
+            {
+              "speaker": "B",
+              "zh": "谢谢，你也是！",
+              "py": "Xièxie, nǐ yě shì!",
+              "fr": "Merci, à toi aussi !"
+            }
+          ]
+        }
+      ],
+      "pronunciation": "Pratique le ton neutre de de et guo ; contraste guò (passer) et guo (expérience).",
+      "mission": "Réalise une présentation finale de deux minutes : bilan, progrès, expérience, plans et remerciements."
+    }
+  ]
+};

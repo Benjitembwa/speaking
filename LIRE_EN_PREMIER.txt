@@ -1,0 +1,9 @@
+MANDARIN PARLÉ — COURS COMPLET DE CONVERSATION
+
+1. Ouvrez index.html (ou demarrer_windows.bat).
+2. Choisissez une leçon : Vocabulaire, Grammaire, Conversations, Pratique, Quiz, Flashcards.
+3. Dans « Voix & préférences », sélectionnez deux voix chinoises si votre ordinateur en propose.
+4. Pour VS Code, exécutez : python -m http.server 8000
+5. Pour GitHub Pages, copiez le CONTENU du dossier dans la racine du dépôt, puis git add . ; git commit -m "23 lecons" ; git push origin main.
+
+Consultez README.md pour les limites, les fichiers et les instructions détaillées.
